@@ -840,7 +840,7 @@
   to: url.domain
   alias: true
 
- - from: resolve.host
+- from: resolve.host
   to: url.domain
   alias: true
 
