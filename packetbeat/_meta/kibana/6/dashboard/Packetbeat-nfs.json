@@ -8,8 +8,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "nfs", 
-                "title": "NFS clients pie chart", 
+                "savedSearchId": "nfs-7x 7.x", 
+                "title": "NFS clients pie chart 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -39,11 +39,11 @@
                         "isDonut": true, 
                         "shareYAxis": true
                     }, 
-                    "title": "NFS clients pie chart", 
+                    "title": "NFS clients pie chart 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "NFS-clients-pie-chart", 
+            "id": "NFS-clients-pie-chart-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -55,8 +55,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "nfs", 
-                "title": "NFS operations area chart", 
+                "savedSearchId": "nfs-7x 7.x", 
+                "title": "NFS operations area chart 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -70,7 +70,7 @@
                         {
                             "id": "2", 
                             "params": {
-                                "field": "nfs.opcode", 
+                                "field": "nfs-7x.opcode", 
                                 "order": "desc", 
                                 "orderBy": "1", 
                                 "size": 16
@@ -106,11 +106,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "NFS operations area chart", 
+                    "title": "NFS operations area chart 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "NFS-operations-area-chart", 
+            "id": "NFS-operations-area-chart-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -122,8 +122,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "nfs", 
-                "title": "NFS top group pie chart", 
+                "savedSearchId": "nfs-7x 7.x", 
+                "title": "NFS top group pie chart 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -153,11 +153,11 @@
                         "isDonut": false, 
                         "shareYAxis": true
                     }, 
-                    "title": "New Visualization", 
+                    "title": "New Visualization 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "NFS-top-group-pie-chart", 
+            "id": "NFS-top-group-pie-chart-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -169,8 +169,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "nfs", 
-                "title": "NFS top users pie chart", 
+                "savedSearchId": "nfs-7x 7.x", 
+                "title": "NFS top users pie chart 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -200,11 +200,11 @@
                         "isDonut": false, 
                         "shareYAxis": true
                     }, 
-                    "title": "New Visualization", 
+                    "title": "New Visualization 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "NFS-top-users-pie-chart", 
+            "id": "NFS-top-users-pie-chart-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -216,8 +216,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "nfs", 
-                "title": "NFS response times", 
+                "savedSearchId": "nfs-7x 7.x", 
+                "title": "NFS response times 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -263,11 +263,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "NFS response times", 
+                    "title": "NFS response times 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "NFS-response-times", 
+            "id": "NFS-response-times-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -279,8 +279,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "NFS-errors-search", 
-                "title": "NFS errors", 
+                "savedSearchId": "NFS-errors-7x-search", 
+                "title": "NFS errors 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -309,7 +309,7 @@
                             "enabled": true, 
                             "id": "3", 
                             "params": {
-                                "field": "nfs.status", 
+                                "field": "nfs-7x.status", 
                                 "order": "desc", 
                                 "orderBy": "1", 
                                 "size": 12
@@ -334,11 +334,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "NFS errors", 
+                    "title": "NFS errors 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "NFS-errors", 
+            "id": "NFS-errors-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -350,8 +350,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "nfs", 
-                "title": "NFS operation table", 
+                "savedSearchId": "nfs-7x 7.x", 
+                "title": "NFS operation table 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -367,7 +367,7 @@
                         {
                             "id": "2", 
                             "params": {
-                                "field": "nfs.opcode", 
+                                "field": "nfs-7x.opcode", 
                                 "order": "desc", 
                                 "orderBy": "1", 
                                 "size": 16
@@ -388,11 +388,11 @@
                         "showMeticsAtAllLevels": false, 
                         "showPartialRows": false
                     }, 
-                    "title": "NFS operation table", 
+                    "title": "NFS operation table 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "NFS-operation-table", 
+            "id": "NFS-operation-table-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -404,8 +404,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "nfs", 
-                "title": "NFS bytes in / out", 
+                "savedSearchId": "nfs-7x 7.x", 
+                "title": "NFS bytes in / out 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "colors": {
@@ -462,11 +462,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "NFS bytes in / out", 
+                    "title": "NFS bytes in / out 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "NFS-bytes-in-slash-out", 
+            "id": "NFS-bytes-in-slash-out-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -487,20 +487,20 @@
                         }
                     }
                 }, 
-                "title": "Navigation", 
+                "title": "Navigation-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": "10", 
-                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard)\n\n[Flows](#/dashboard/Packetbeat-Flows)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra)"
+                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard-7x)\n\n[Flows](#/dashboard/Packetbeat-Flows-7x)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP-7x)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance-7x)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance-7x)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance-7x)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance-7x)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS-7x)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra-7x)"
                     }, 
-                    "title": "Navigation", 
+                    "title": "Navigation-7x 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "Navigation", 
+            "id": "Navigation-7x 7.x", 
             "type": "visualization", 
             "version": 10
         }, 
@@ -524,12 +524,12 @@
                                     "index": "packetbeat-*", 
                                     "key": "type", 
                                     "negate": false, 
-                                    "value": "nfs"
+                                    "value": "nfs-7x 7.x"
                                 }, 
                                 "query": {
                                     "match": {
                                         "type": {
-                                            "query": "nfs", 
+                                            "query": "nfs-7x 7.x", 
                                             "type": "phrase"
                                         }
                                     }
@@ -562,10 +562,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "nfs", 
+                "title": "nfs-7x 7.x", 
                 "version": 1
             }, 
-            "id": "nfs", 
+            "id": "nfs-7x 7.x", 
             "type": "search", 
             "version": 1
         }, 
@@ -589,12 +589,12 @@
                                     "index": "packetbeat-*", 
                                     "key": "type", 
                                     "negate": false, 
-                                    "value": "nfs"
+                                    "value": "nfs-7x 7.x"
                                 }, 
                                 "query": {
                                     "match": {
                                         "type": {
-                                            "query": "nfs", 
+                                            "query": "nfs-7x 7.x", 
                                             "type": "phrase"
                                         }
                                     }
@@ -608,13 +608,13 @@
                                     "alias": null, 
                                     "disabled": false, 
                                     "index": "packetbeat-*", 
-                                    "key": "nfs.status", 
+                                    "key": "nfs-7x.status", 
                                     "negate": true, 
                                     "value": "NFSERR_NOENT"
                                 }, 
                                 "query": {
                                     "match": {
-                                        "nfs.status": {
+                                        "nfs-7x.status": {
                                             "query": "NFSERR_NOENT", 
                                             "type": "phrase"
                                         }
@@ -629,13 +629,13 @@
                                     "alias": null, 
                                     "disabled": false, 
                                     "index": "packetbeat-*", 
-                                    "key": "nfs.status", 
+                                    "key": "nfs-7x.status", 
                                     "negate": true, 
                                     "value": "NFS_OK"
                                 }, 
                                 "query": {
                                     "match": {
-                                        "nfs.status": {
+                                        "nfs-7x.status": {
                                             "query": "NFS_OK", 
                                             "type": "phrase"
                                         }
@@ -669,10 +669,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "NFS errors search", 
+                "title": "NFS errors search 7.x", 
                 "version": 1
             }, 
-            "id": "NFS-errors-search", 
+            "id": "NFS-errors-7x-search", 
             "type": "search", 
             "version": 1
         }, 
@@ -702,7 +702,7 @@
                 "panelsJSON": [
                     {
                         "col": 5, 
-                        "id": "NFS-clients-pie-chart", 
+                        "id": "NFS-clients-pie-chart-7x", 
                         "panelIndex": 1, 
                         "row": 1, 
                         "size_x": 4, 
@@ -711,7 +711,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "NFS-operations-area-chart", 
+                        "id": "NFS-operations-area-chart-7x", 
                         "panelIndex": 3, 
                         "row": 12, 
                         "size_x": 6, 
@@ -720,7 +720,7 @@
                     }, 
                     {
                         "col": 9, 
-                        "id": "NFS-top-group-pie-chart", 
+                        "id": "NFS-top-group-pie-chart-7x", 
                         "panelIndex": 4, 
                         "row": 1, 
                         "size_x": 4, 
@@ -729,7 +729,7 @@
                     }, 
                     {
                         "col": 9, 
-                        "id": "NFS-top-users-pie-chart", 
+                        "id": "NFS-top-users-pie-chart-7x", 
                         "panelIndex": 5, 
                         "row": 3, 
                         "size_x": 4, 
@@ -738,7 +738,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "NFS-response-times", 
+                        "id": "NFS-response-times-7x", 
                         "panelIndex": 6, 
                         "row": 6, 
                         "size_x": 6, 
@@ -747,7 +747,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "NFS-errors", 
+                        "id": "NFS-errors-7x", 
                         "panelIndex": 7, 
                         "row": 9, 
                         "size_x": 6, 
@@ -756,7 +756,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "NFS-operation-table", 
+                        "id": "NFS-operation-table-7x", 
                         "panelIndex": 8, 
                         "row": 12, 
                         "size_x": 6, 
@@ -765,7 +765,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "NFS-bytes-in-slash-out", 
+                        "id": "NFS-bytes-in-slash-out-7x", 
                         "panelIndex": 9, 
                         "row": 6, 
                         "size_x": 6, 
@@ -774,7 +774,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Navigation", 
+                        "id": "Navigation-7x 7.x", 
                         "panelIndex": 10, 
                         "row": 1, 
                         "size_x": 4, 
@@ -783,7 +783,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Packetbeat] NFS", 
+                "title": "[Packetbeat] NFS 7.x", 
                 "uiStateJSON": {
                     "P-1": {
                         "vis": {
@@ -829,7 +829,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "Packetbeat-NFS", 
+            "id": "Packetbeat-NFS-7x", 
             "type": "dashboard", 
             "version": 2
         }

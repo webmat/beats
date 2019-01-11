@@ -17,20 +17,20 @@
                         }
                     }
                 }, 
-                "title": "Navigation", 
+                "title": "Navigation-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": "10", 
-                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard)\n\n[Flows](#/dashboard/Packetbeat-Flows)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra)"
+                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard-7x)\n\n[Flows](#/dashboard/Packetbeat-Flows-7x)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP-7x)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance-7x)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance-7x)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance-7x)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance-7x)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS-7x)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra-7x)"
                     }, 
-                    "title": "Navigation", 
+                    "title": "Navigation-7x 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "Navigation", 
+            "id": "Navigation-7x 7.x", 
             "type": "visualization", 
             "version": 10
         }, 
@@ -42,8 +42,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Thrift-transactions", 
-                "title": "Thrift requests per minute", 
+                "savedSearchId": "Thrift-transactions-7x", 
+                "title": "Thrift requests per minute 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -80,11 +80,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Thrift requests per minute", 
+                    "title": "Thrift requests per minute 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Thrift-requests-per-minute", 
+            "id": "Thrift-requests-per-minute-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -96,8 +96,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Thrift-errors", 
-                "title": "Thrift RPC Errors", 
+                "savedSearchId": "Thrift-errors-7x", 
+                "title": "Thrift RPC Errors 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -136,11 +136,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Thrift RPC Errors", 
+                    "title": "Thrift RPC Errors 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "Thrift-RPC-Errors", 
+            "id": "Thrift-RPC-Errors-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -152,15 +152,15 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Thrift-transactions", 
-                "title": "Slowest Thrift RPC methods", 
+                "savedSearchId": "Thrift-transactions-7x", 
+                "title": "Slowest Thrift RPC methods 7.x", 
                 "version": 1, 
                 "visState": {
                     "aggs": [
                         {
                             "id": "1", 
                             "params": {
-                                "field": "responsetime"
+                                "field": "event.duration"
                             }, 
                             "schema": "metric", 
                             "type": "avg"
@@ -186,7 +186,7 @@
                     "type": "table"
                 }
             }, 
-            "id": "Slowest-Thrift-RPC-methods", 
+            "id": "Slowest-Thrift-RPC-methods-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -198,15 +198,15 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Thrift-transactions", 
-                "title": "Thrift response times percentiles", 
+                "savedSearchId": "Thrift-transactions-7x", 
+                "title": "Thrift response times percentiles 7.x", 
                 "version": 1, 
                 "visState": {
                     "aggs": [
                         {
                             "id": "1", 
                             "params": {
-                                "field": "responsetime", 
+                                "field": "event.duration", 
                                 "percents": [
                                     75, 
                                     99, 
@@ -238,7 +238,7 @@
                     "type": "line"
                 }
             }, 
-            "id": "Thrift-response-times-percentiles", 
+            "id": "Thrift-response-times-percentiles-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -250,8 +250,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Thrift-transactions", 
-                "title": "Top Thrift-RPC methods", 
+                "savedSearchId": "Thrift-transactions-7x", 
+                "title": "Top Thrift-RPC methods 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -287,11 +287,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Top Thrift-RPC methods", 
+                    "title": "Top Thrift-RPC methods 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Top-Thrift-RPC-methods", 
+            "id": "Top-Thrift-RPC-methods-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -303,8 +303,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Thrift-errors", 
-                "title": "Top Thrift-RPC calls with errors", 
+                "savedSearchId": "Thrift-errors-7x", 
+                "title": "Top Thrift-RPC calls with errors 7.x", 
                 "version": 1, 
                 "visState": {
                     "aggs": [
@@ -337,7 +337,7 @@
                     "type": "histogram"
                 }
             }, 
-            "id": "Top-Thrift-RPC-calls-with-errors", 
+            "id": "Top-Thrift-RPC-calls-with-errors-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -347,7 +347,7 @@
                     "method", 
                     "type", 
                     "path", 
-                    "responsetime", 
+                    "event.duration", 
                     "status"
                 ], 
                 "description": "", 
@@ -397,10 +397,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Thrift transactions", 
+                "title": "Thrift transactions 7.x", 
                 "version": 1
             }, 
-            "id": "Thrift-transactions", 
+            "id": "Thrift-transactions-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -410,7 +410,7 @@
                     "method", 
                     "type", 
                     "path", 
-                    "responsetime", 
+                    "event.duration", 
                     "status"
                 ], 
                 "description": "", 
@@ -477,10 +477,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Thrift errors", 
+                "title": "Thrift errors 7.x", 
                 "version": 1
             }, 
-            "id": "Thrift-errors", 
+            "id": "Thrift-errors-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -510,7 +510,7 @@
                 "panelsJSON": [
                     {
                         "col": 1, 
-                        "id": "Navigation", 
+                        "id": "Navigation-7x 7.x", 
                         "panelIndex": 1, 
                         "row": 1, 
                         "size_x": 3, 
@@ -519,7 +519,7 @@
                     }, 
                     {
                         "col": 4, 
-                        "id": "Thrift-requests-per-minute", 
+                        "id": "Thrift-requests-per-minute-7x", 
                         "panelIndex": 2, 
                         "row": 1, 
                         "size_x": 5, 
@@ -528,7 +528,7 @@
                     }, 
                     {
                         "col": 9, 
-                        "id": "Thrift-RPC-Errors", 
+                        "id": "Thrift-RPC-Errors-7x", 
                         "panelIndex": 3, 
                         "row": 1, 
                         "size_x": 4, 
@@ -537,7 +537,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Slowest-Thrift-RPC-methods", 
+                        "id": "Slowest-Thrift-RPC-methods-7x", 
                         "panelIndex": 4, 
                         "row": 5, 
                         "size_x": 6, 
@@ -546,7 +546,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "Thrift-response-times-percentiles", 
+                        "id": "Thrift-response-times-percentiles-7x", 
                         "panelIndex": 5, 
                         "row": 5, 
                         "size_x": 6, 
@@ -555,7 +555,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Top-Thrift-RPC-methods", 
+                        "id": "Top-Thrift-RPC-methods-7x", 
                         "panelIndex": 6, 
                         "row": 8, 
                         "size_x": 6, 
@@ -564,7 +564,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "Top-Thrift-RPC-calls-with-errors", 
+                        "id": "Top-Thrift-RPC-calls-with-errors-7x", 
                         "panelIndex": 7, 
                         "row": 8, 
                         "size_x": 6, 
@@ -573,7 +573,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Packetbeat] Thrift performance", 
+                "title": "[Packetbeat] Thrift performance 7.x", 
                 "uiStateJSON": {
                     "P-4": {
                         "vis": {
@@ -588,7 +588,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "Packetbeat-Thrift-performance", 
+            "id": "Packetbeat-Thrift-performance-7x", 
             "type": "dashboard", 
             "version": 2
         }

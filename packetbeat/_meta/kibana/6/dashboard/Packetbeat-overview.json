@@ -8,8 +8,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3", 
-                "title": "Web transactions", 
+                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "Web transactions 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -46,11 +46,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Web transactions", 
+                    "title": "Web transactions 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Web-transactions", 
+            "id": "Web-transactions-7x", 
             "type": "visualization", 
             "version": 3
         }, 
@@ -62,8 +62,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "800e2a00-88cb-11e7-ad9c-db80de0bf8d3", 
-                "title": "DB transactions", 
+                "savedSearchId": "800e2a00-88cb-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "DB transactions 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -111,11 +111,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "DB transactions", 
+                    "title": "DB transactions 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "DB-transactions", 
+            "id": "DB-transactions-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -127,8 +127,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "3dd366e0-88cc-11e7-ad9c-db80de0bf8d3", 
-                "title": "Cache transactions", 
+                "savedSearchId": "3dd366e0-88cc-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "Cache transactions 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -165,11 +165,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Cache transactions", 
+                    "title": "Cache transactions 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Cache-transactions", 
+            "id": "Cache-transactions-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -181,8 +181,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "d3089370-88cc-11e7-ad9c-db80de0bf8d3", 
-                "title": "RPC transactions", 
+                "savedSearchId": "d3089370-88cc-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "RPC transactions 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -221,11 +221,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "RPC transactions", 
+                    "title": "RPC transactions 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "RPC-transactions", 
+            "id": "RPC-transactions-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -237,8 +237,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Packetbeat-Search", 
-                "title": "Response times percentiles", 
+                "savedSearchId": "Packetbeat-Search-7x", 
+                "title": "Response times percentiles 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -247,7 +247,7 @@
                             "enabled": true, 
                             "id": "1", 
                             "params": {
-                                "field": "responsetime", 
+                                "field": "event.duration", 
                                 "percents": [
                                     75, 
                                     95, 
@@ -289,11 +289,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Response times percentiles", 
+                    "title": "Response times percentiles 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "Response-times-percentiles", 
+            "id": "Response-times-percentiles-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -305,8 +305,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Transactions-errors", 
-                "title": "Errors count over time", 
+                "savedSearchId": "Transactions-errors-7x", 
+                "title": "Errors count over time 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -354,11 +354,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "New Visualization", 
+                    "title": "New Visualization 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Errors-count-over-time", 
+            "id": "Errors-count-over-time-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -370,8 +370,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Packetbeat-Search", 
-                "title": "Errors vs successful transactions", 
+                "savedSearchId": "Packetbeat-Search-7x", 
+                "title": "Errors vs successful transactions 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -419,11 +419,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Errors vs successful transactions", 
+                    "title": "Errors vs successful transactions 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Errors-vs-successful-transactions", 
+            "id": "Errors-vs-successful-transactions-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -435,8 +435,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Packetbeat-Search", 
-                "title": "Latency histogram", 
+                "savedSearchId": "Packetbeat-Search-7x", 
+                "title": "Latency histogram 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -453,7 +453,7 @@
                             "id": "2", 
                             "params": {
                                 "extended_bounds": {}, 
-                                "field": "responsetime", 
+                                "field": "event.duration", 
                                 "interval": 10
                             }, 
                             "schema": "segment", 
@@ -476,11 +476,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Latency histogram", 
+                    "title": "Latency histogram 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "Latency-histogram", 
+            "id": "Latency-histogram-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -499,7 +499,7 @@
                         }
                     }
                 }, 
-                "title": "Client locations", 
+                "title": "Client locations 7.x", 
                 "uiStateJSON": {
                     "mapCenter": [
                         0, 
@@ -555,11 +555,11 @@
                             "url": "https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer"
                         }
                     }, 
-                    "title": "Client locations", 
+                    "title": "Client locations 7.x", 
                     "type": "tile_map"
                 }
             }, 
-            "id": "Client-locations", 
+            "id": "Client-locations-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -571,8 +571,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Packetbeat-Search", 
-                "title": "Response times repartition", 
+                "savedSearchId": "Packetbeat-Search-7x", 
+                "title": "Response times repartition 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -599,7 +599,7 @@
                             "id": "3", 
                             "params": {
                                 "extended_bounds": {}, 
-                                "field": "responsetime", 
+                                "field": "event.duration", 
                                 "interval": 10
                             }, 
                             "schema": "group", 
@@ -619,11 +619,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Response times repartition", 
+                    "title": "Response times repartition 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Response-times-repartition", 
+            "id": "Response-times-repartition-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -644,20 +644,20 @@
                         }
                     }
                 }, 
-                "title": "Navigation", 
+                "title": "Navigation-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": "10", 
-                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard)\n\n[Flows](#/dashboard/Packetbeat-Flows)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra)"
+                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard-7x)\n\n[Flows](#/dashboard/Packetbeat-Flows-7x)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP-7x)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance-7x)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance-7x)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance-7x)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance-7x)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS-7x)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra-7x)"
                     }, 
-                    "title": "Navigation", 
+                    "title": "Navigation-7x 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "Navigation", 
+            "id": "Navigation-7x 7.x", 
             "type": "visualization", 
             "version": 10
         }, 
@@ -711,10 +711,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Web Transactions [Packetbeat]", 
+                "title": "Web Transactions [Packetbeat] 7.x", 
                 "version": 1
             }, 
-            "id": "71908f00-88ca-11e7-ad9c-db80de0bf8d3", 
+            "id": "71908f00-88ca-11e7-ad9c-db80de0bf8d3-7x", 
             "type": "search", 
             "version": 2
         }, 
@@ -773,10 +773,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "DB transactions", 
+                "title": "DB transactions 7.x", 
                 "version": 1
             }, 
-            "id": "800e2a00-88cb-11e7-ad9c-db80de0bf8d3", 
+            "id": "800e2a00-88cb-11e7-ad9c-db80de0bf8d3-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -835,10 +835,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Cache Transactions [Packetbeat]", 
+                "title": "Cache Transactions [Packetbeat] 7.x", 
                 "version": 1
             }, 
-            "id": "3dd366e0-88cc-11e7-ad9c-db80de0bf8d3", 
+            "id": "3dd366e0-88cc-11e7-ad9c-db80de0bf8d3-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -892,10 +892,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "RPC transactions", 
+                "title": "RPC transactions 7.x", 
                 "version": 1
             }, 
-            "id": "d3089370-88cc-11e7-ad9c-db80de0bf8d3", 
+            "id": "d3089370-88cc-11e7-ad9c-db80de0bf8d3-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -909,7 +909,7 @@
                     "type", 
                     "query", 
                     "method", 
-                    "responsetime", 
+                    "event.duration", 
                     "status"
                 ], 
                 "description": "", 
@@ -943,10 +943,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Packetbeat Search", 
+                "title": "Packetbeat Search 7.x", 
                 "version": 1
             }, 
-            "id": "Packetbeat-Search", 
+            "id": "Packetbeat-Search-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -960,7 +960,7 @@
                     "type", 
                     "query", 
                     "method", 
-                    "responsetime", 
+                    "event.duration", 
                     "status"
                 ], 
                 "description": "", 
@@ -994,10 +994,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Transactions errors", 
+                "title": "Transactions errors 7.x", 
                 "version": 1
             }, 
-            "id": "Transactions-errors", 
+            "id": "Transactions-errors-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -1027,7 +1027,7 @@
                 "panelsJSON": [
                     {
                         "col": 1, 
-                        "id": "Web-transactions", 
+                        "id": "Web-transactions-7x", 
                         "panelIndex": 1, 
                         "row": 5, 
                         "size_x": 3, 
@@ -1036,7 +1036,7 @@
                     }, 
                     {
                         "col": 4, 
-                        "id": "DB-transactions", 
+                        "id": "DB-transactions-7x", 
                         "panelIndex": 2, 
                         "row": 5, 
                         "size_x": 3, 
@@ -1045,7 +1045,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "Cache-transactions", 
+                        "id": "Cache-transactions-7x", 
                         "panelIndex": 3, 
                         "row": 5, 
                         "size_x": 3, 
@@ -1054,7 +1054,7 @@
                     }, 
                     {
                         "col": 10, 
-                        "id": "RPC-transactions", 
+                        "id": "RPC-transactions-7x", 
                         "panelIndex": 4, 
                         "row": 5, 
                         "size_x": 3, 
@@ -1063,7 +1063,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Response-times-percentiles", 
+                        "id": "Response-times-percentiles-7x", 
                         "panelIndex": 5, 
                         "row": 10, 
                         "size_x": 6, 
@@ -1072,7 +1072,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Errors-count-over-time", 
+                        "id": "Errors-count-over-time-7x", 
                         "panelIndex": 6, 
                         "row": 13, 
                         "size_x": 6, 
@@ -1081,7 +1081,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "Errors-vs-successful-transactions", 
+                        "id": "Errors-vs-successful-transactions-7x", 
                         "panelIndex": 7, 
                         "row": 10, 
                         "size_x": 6, 
@@ -1090,7 +1090,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "Latency-histogram", 
+                        "id": "Latency-histogram-7x", 
                         "panelIndex": 8, 
                         "row": 13, 
                         "size_x": 6, 
@@ -1099,7 +1099,7 @@
                     }, 
                     {
                         "col": 4, 
-                        "id": "Client-locations", 
+                        "id": "Client-locations-7x", 
                         "panelIndex": 9, 
                         "row": 1, 
                         "size_x": 9, 
@@ -1108,7 +1108,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Response-times-repartition", 
+                        "id": "Response-times-repartition-7x", 
                         "panelIndex": 10, 
                         "row": 7, 
                         "size_x": 12, 
@@ -1117,7 +1117,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Navigation", 
+                        "id": "Navigation-7x 7.x", 
                         "panelIndex": 11, 
                         "row": 1, 
                         "size_x": 3, 
@@ -1126,7 +1126,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Packetbeat] Overview", 
+                "title": "[Packetbeat] Overview 7.x", 
                 "uiStateJSON": {
                     "P-9": {
                         "mapBounds": {
@@ -1155,7 +1155,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "Packetbeat-Dashboard", 
+            "id": "Packetbeat-Dashboard-7x", 
             "type": "dashboard", 
             "version": 2
         }

@@ -17,20 +17,20 @@
                         }
                     }
                 }, 
-                "title": "Navigation", 
+                "title": "Navigation-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": "10", 
-                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard)\n\n[Flows](#/dashboard/Packetbeat-Flows)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra)"
+                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard-7x)\n\n[Flows](#/dashboard/Packetbeat-Flows-7x)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP-7x)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance-7x)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance-7x)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance-7x)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance-7x)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS-7x)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra-7x)"
                     }, 
-                    "title": "Navigation", 
+                    "title": "Navigation-7x 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "Navigation", 
+            "id": "Navigation-7x 7.x", 
             "type": "visualization", 
             "version": 10
         }, 
@@ -42,8 +42,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "651fd6d0-88d0-11e7-ad9c-db80de0bf8d3", 
-                "title": "MongoDB errors", 
+                "savedSearchId": "651fd6d0-88d0-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "MongoDB errors 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -108,11 +108,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "MongoDB errors", 
+                    "title": "MongoDB errors 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "MongoDB-errors", 
+            "id": "MongoDB-errors-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -124,8 +124,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-transactions", 
-                "title": "MongoDB commands", 
+                "savedSearchId": "MongoDB-transactions-7x-7x", 
+                "title": "MongoDB commands 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -175,11 +175,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "MongoDB commands", 
+                    "title": "MongoDB commands 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "MongoDB-commands", 
+            "id": "MongoDB-commands-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -191,8 +191,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "651fd6d0-88d0-11e7-ad9c-db80de0bf8d3", 
-                "title": "MongoDB errors per collection", 
+                "savedSearchId": "651fd6d0-88d0-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "MongoDB errors per collection 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -245,11 +245,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "MongoDB errors per collection", 
+                    "title": "MongoDB errors per collection 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "MongoDB-errors-per-collection", 
+            "id": "MongoDB-errors-7x-per-collection", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -261,15 +261,15 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-transactions", 
-                "title": "MongoDB in/out throughput", 
+                "savedSearchId": "MongoDB-transactions-7x-7x", 
+                "title": "MongoDB in/out throughput 7.x", 
                 "version": 1, 
                 "visState": {
                     "aggs": [
                         {
                             "id": "1", 
                             "params": {
-                                "field": "bytes_in"
+                                "field": "source.bytes"
                             }, 
                             "schema": "metric", 
                             "type": "sum"
@@ -289,7 +289,7 @@
                         {
                             "id": "4", 
                             "params": {
-                                "field": "bytes_out"
+                                "field": "destination.bytes"
                             }, 
                             "schema": "metric", 
                             "type": "sum"
@@ -315,7 +315,7 @@
                     "type": "line"
                 }
             }, 
-            "id": "MongoDB-in-slash-out-throughput", 
+            "id": "MongoDB-in-slash-out-throughput-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -327,8 +327,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-transactions", 
-                "title": "MongoDB response times by collection", 
+                "savedSearchId": "MongoDB-transactions-7x-7x", 
+                "title": "MongoDB response times by collection 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -336,7 +336,7 @@
                         {
                             "id": "1", 
                             "params": {
-                                "field": "responsetime", 
+                                "field": "event.duration", 
                                 "percents": [
                                     99
                                 ]
@@ -391,11 +391,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "MongoDB response times by collection", 
+                    "title": "MongoDB response times by collection 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "MongoDB-response-times-by-collection", 
+            "id": "MongoDB-response-times-by-collection-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -407,15 +407,15 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-transactions", 
-                "title": "Top slowest MongoDB queries", 
+                "savedSearchId": "MongoDB-transactions-7x-7x", 
+                "title": "Top slowest MongoDB queries 7.x", 
                 "version": 1, 
                 "visState": {
                     "aggs": [
                         {
                             "id": "1", 
                             "params": {
-                                "field": "responsetime", 
+                                "field": "event.duration", 
                                 "percents": [
                                     99
                                 ]
@@ -444,7 +444,7 @@
                     "type": "table"
                 }
             }, 
-            "id": "Top-slowest-MongoDB-queries", 
+            "id": "Top-slowest-MongoDB-queries-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -456,8 +456,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-transactions-with-write-concern-0", 
-                "title": "Number of MongoDB transactions with writeConcern w=0", 
+                "savedSearchId": "MongoDB-transactions-7x-7x-with-write-concern-0", 
+                "title": "Number of MongoDB transactions with writeConcern w=0 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -504,11 +504,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Number of MongoDB transactions with writeConcern w=0", 
+                    "title": "Number of MongoDB transactions with writeConcern w=0 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "Number-of-MongoDB-transactions-with-writeConcern-w-equal-0", 
+            "id": "Number-of-MongoDB-transactions-7x-7x-with-writeConcern-w-equal-0-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -588,10 +588,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "MongoDB errors [Packetbeat]", 
+                "title": "MongoDB errors [Packetbeat] 7.x", 
                 "version": 1
             }, 
-            "id": "651fd6d0-88d0-11e7-ad9c-db80de0bf8d3", 
+            "id": "651fd6d0-88d0-11e7-ad9c-db80de0bf8d3-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -601,7 +601,7 @@
                     "method", 
                     "type", 
                     "path", 
-                    "responsetime", 
+                    "event.duration", 
                     "status", 
                     "query"
                 ], 
@@ -653,10 +653,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "MongoDB transactions", 
+                "title": "MongoDB transactions 7.x", 
                 "version": 1
             }, 
-            "id": "MongoDB-transactions", 
+            "id": "MongoDB-transactions-7x-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -666,7 +666,7 @@
                     "method", 
                     "type", 
                     "path", 
-                    "responsetime", 
+                    "event.duration", 
                     "status", 
                     "query"
                 ], 
@@ -718,10 +718,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "MongoDB transactions with write concern 0", 
+                "title": "MongoDB transactions with write concern 0 7.x", 
                 "version": 1
             }, 
-            "id": "MongoDB-transactions-with-write-concern-0", 
+            "id": "MongoDB-transactions-7x-7x-with-write-concern-0", 
             "type": "search", 
             "version": 1
         }, 
@@ -751,7 +751,7 @@
                 "panelsJSON": [
                     {
                         "col": 1, 
-                        "id": "Navigation", 
+                        "id": "Navigation-7x 7.x", 
                         "panelIndex": 1, 
                         "row": 1, 
                         "size_x": 3, 
@@ -760,7 +760,7 @@
                     }, 
                     {
                         "col": 4, 
-                        "id": "MongoDB-errors", 
+                        "id": "MongoDB-errors-7x", 
                         "panelIndex": 2, 
                         "row": 1, 
                         "size_x": 5, 
@@ -769,7 +769,7 @@
                     }, 
                     {
                         "col": 9, 
-                        "id": "MongoDB-commands", 
+                        "id": "MongoDB-commands-7x", 
                         "panelIndex": 3, 
                         "row": 1, 
                         "size_x": 4, 
@@ -778,7 +778,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "MongoDB-errors-per-collection", 
+                        "id": "MongoDB-errors-7x-per-collection", 
                         "panelIndex": 4, 
                         "row": 5, 
                         "size_x": 4, 
@@ -787,7 +787,7 @@
                     }, 
                     {
                         "col": 5, 
-                        "id": "MongoDB-in-slash-out-throughput", 
+                        "id": "MongoDB-in-slash-out-throughput-7x", 
                         "panelIndex": 5, 
                         "row": 5, 
                         "size_x": 4, 
@@ -796,7 +796,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "MongoDB-response-times-by-collection", 
+                        "id": "MongoDB-response-times-by-collection-7x", 
                         "panelIndex": 6, 
                         "row": 8, 
                         "size_x": 8, 
@@ -805,7 +805,7 @@
                     }, 
                     {
                         "col": 9, 
-                        "id": "Top-slowest-MongoDB-queries", 
+                        "id": "Top-slowest-MongoDB-queries-7x", 
                         "panelIndex": 7, 
                         "row": 8, 
                         "size_x": 4, 
@@ -814,7 +814,7 @@
                     }, 
                     {
                         "col": 9, 
-                        "id": "Number-of-MongoDB-transactions-with-writeConcern-w-equal-0", 
+                        "id": "Number-of-MongoDB-transactions-7x-7x-with-writeConcern-w-equal-0-7x", 
                         "panelIndex": 8, 
                         "row": 5, 
                         "size_x": 4, 
@@ -823,7 +823,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Packetbeat] MongoDB", 
+                "title": "[Packetbeat] MongoDB 7.x", 
                 "uiStateJSON": {
                     "P-7": {
                         "vis": {
@@ -838,7 +838,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "Packetbeat-MongoDB-performance", 
+            "id": "Packetbeat-MongoDB-performance-7x", 
             "type": "dashboard", 
             "version": 2
         }

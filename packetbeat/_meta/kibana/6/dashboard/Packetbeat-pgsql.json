@@ -17,20 +17,20 @@
                         }
                     }
                 }, 
-                "title": "Navigation", 
+                "title": "Navigation-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": "10", 
-                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard)\n\n[Flows](#/dashboard/Packetbeat-Flows)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra)"
+                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard-7x)\n\n[Flows](#/dashboard/Packetbeat-Flows-7x)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP-7x)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance-7x)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance-7x)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance-7x)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance-7x)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS-7x)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra-7x)"
                     }, 
-                    "title": "Navigation", 
+                    "title": "Navigation-7x 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "Navigation", 
+            "id": "Navigation-7x 7.x", 
             "type": "visualization", 
             "version": 10
         }, 
@@ -42,8 +42,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "PgSQL-errors", 
-                "title": "PgSQL Errors", 
+                "savedSearchId": "PgSQL-errors-7x", 
+                "title": "PgSQL Errors 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -82,11 +82,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "PgSQL Errors", 
+                    "title": "PgSQL Errors 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "PgSQL-Errors", 
+            "id": "PgSQL-Errors-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -98,8 +98,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "PgSQL-transactions", 
-                "title": "PgSQL Methods", 
+                "savedSearchId": "PgSQL-transactions-7x", 
+                "title": "PgSQL Methods 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -149,11 +149,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "PgSQL Methods", 
+                    "title": "PgSQL Methods 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "PgSQL-Methods", 
+            "id": "PgSQL-Methods-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -165,15 +165,15 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "PgSQL-transactions", 
-                "title": "PgSQL response times percentiles", 
+                "savedSearchId": "PgSQL-transactions-7x", 
+                "title": "PgSQL response times percentiles 7.x", 
                 "version": 1, 
                 "visState": {
                     "aggs": [
                         {
                             "id": "1", 
                             "params": {
-                                "field": "responsetime", 
+                                "field": "event.duration", 
                                 "percents": [
                                     75, 
                                     99, 
@@ -205,7 +205,7 @@
                     "type": "line"
                 }
             }, 
-            "id": "PgSQL-response-times-percentiles", 
+            "id": "PgSQL-response-times-percentiles-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -217,15 +217,15 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "PgSQL-transactions", 
-                "title": "PgSQL throughput", 
+                "savedSearchId": "PgSQL-transactions-7x", 
+                "title": "PgSQL throughput 7.x", 
                 "version": 1, 
                 "visState": {
                     "aggs": [
                         {
                             "id": "1", 
                             "params": {
-                                "field": "bytes_out"
+                                "field": "destination.bytes"
                             }, 
                             "schema": "metric", 
                             "type": "sum"
@@ -233,7 +233,7 @@
                         {
                             "id": "2", 
                             "params": {
-                                "field": "bytes_in"
+                                "field": "source.bytes"
                             }, 
                             "schema": "metric", 
                             "type": "sum"
@@ -260,7 +260,7 @@
                     "type": "line"
                 }
             }, 
-            "id": "PgSQL-throughput", 
+            "id": "PgSQL-throughput-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -272,8 +272,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "PgSQL-transactions", 
-                "title": "PgSQL Reads vs Writes", 
+                "savedSearchId": "PgSQL-transactions-7x", 
+                "title": "PgSQL Reads vs Writes 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -403,11 +403,11 @@
                         ], 
                         "yAxis": {}
                     }, 
-                    "title": "PgSQL Reads vs Writes", 
+                    "title": "PgSQL Reads vs Writes 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "PgSQL-Reads-vs-Writes", 
+            "id": "PgSQL-Reads-vs-Writes-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -419,8 +419,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "PgSQL-transactions", 
-                "title": "Most frequent PgSQL queries", 
+                "savedSearchId": "PgSQL-transactions-7x", 
+                "title": "Most frequent PgSQL queries 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -449,11 +449,11 @@
                         "showMeticsAtAllLevels": false, 
                         "showPartialRows": false
                     }, 
-                    "title": "Most frequent PgSQL queries", 
+                    "title": "Most frequent PgSQL queries 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "Most-frequent-PgSQL-queries", 
+            "id": "Most-frequent-PgSQL-queries-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -465,15 +465,15 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "PgSQL-transactions", 
-                "title": "Slowest PgSQL queries", 
+                "savedSearchId": "PgSQL-transactions-7x", 
+                "title": "Slowest PgSQL queries 7.x", 
                 "version": 1, 
                 "visState": {
                     "aggs": [
                         {
                             "id": "1", 
                             "params": {
-                                "field": "responsetime"
+                                "field": "event.duration"
                             }, 
                             "schema": "metric", 
                             "type": "avg"
@@ -499,7 +499,7 @@
                     "type": "table"
                 }
             }, 
-            "id": "Slowest-PgSQL-queries", 
+            "id": "Slowest-PgSQL-queries-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -509,7 +509,7 @@
                     "method", 
                     "type", 
                     "path", 
-                    "responsetime", 
+                    "event.duration", 
                     "status"
                 ], 
                 "description": "", 
@@ -576,10 +576,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "PgSQL errors", 
+                "title": "PgSQL errors 7.x", 
                 "version": 1
             }, 
-            "id": "PgSQL-errors", 
+            "id": "PgSQL-errors-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -589,7 +589,7 @@
                     "method", 
                     "type", 
                     "path", 
-                    "responsetime", 
+                    "event.duration", 
                     "status"
                 ], 
                 "description": "", 
@@ -639,10 +639,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "PgSQL transactions", 
+                "title": "PgSQL transactions 7.x", 
                 "version": 1
             }, 
-            "id": "PgSQL-transactions", 
+            "id": "PgSQL-transactions-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -672,7 +672,7 @@
                 "panelsJSON": [
                     {
                         "col": 1, 
-                        "id": "Navigation", 
+                        "id": "Navigation-7x 7.x", 
                         "panelIndex": 1, 
                         "row": 1, 
                         "size_x": 3, 
@@ -681,7 +681,7 @@
                     }, 
                     {
                         "col": 4, 
-                        "id": "PgSQL-Errors", 
+                        "id": "PgSQL-Errors-7x", 
                         "panelIndex": 2, 
                         "row": 1, 
                         "size_x": 5, 
@@ -690,7 +690,7 @@
                     }, 
                     {
                         "col": 9, 
-                        "id": "PgSQL-Methods", 
+                        "id": "PgSQL-Methods-7x", 
                         "panelIndex": 3, 
                         "row": 1, 
                         "size_x": 4, 
@@ -699,7 +699,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "PgSQL-response-times-percentiles", 
+                        "id": "PgSQL-response-times-percentiles-7x", 
                         "panelIndex": 4, 
                         "row": 5, 
                         "size_x": 12, 
@@ -708,7 +708,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "PgSQL-throughput", 
+                        "id": "PgSQL-throughput-7x", 
                         "panelIndex": 5, 
                         "row": 8, 
                         "size_x": 6, 
@@ -717,7 +717,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "PgSQL-Reads-vs-Writes", 
+                        "id": "PgSQL-Reads-vs-Writes-7x", 
                         "panelIndex": 6, 
                         "row": 8, 
                         "size_x": 6, 
@@ -726,7 +726,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Most-frequent-PgSQL-queries", 
+                        "id": "Most-frequent-PgSQL-queries-7x", 
                         "panelIndex": 7, 
                         "row": 11, 
                         "size_x": 6, 
@@ -735,7 +735,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "Slowest-PgSQL-queries", 
+                        "id": "Slowest-PgSQL-queries-7x", 
                         "panelIndex": 8, 
                         "row": 11, 
                         "size_x": 6, 
@@ -744,7 +744,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Packetbeat] PgSQL performance", 
+                "title": "[Packetbeat] PgSQL performance 7.x", 
                 "uiStateJSON": {
                     "P-7": {
                         "vis": {
@@ -769,7 +769,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "Packetbeat-PgSQL-performance", 
+            "id": "Packetbeat-PgSQL-performance-7x", 
             "type": "dashboard", 
             "version": 2
         }

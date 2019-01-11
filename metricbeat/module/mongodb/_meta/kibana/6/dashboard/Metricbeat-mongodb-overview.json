@@ -8,8 +8,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-search", 
-                "title": "Hosts [Metricbeat MongoDB]", 
+                "savedSearchId": "MongoDB-search-7x", 
+                "title": "Hosts [Metricbeat MongoDB] 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -37,7 +37,7 @@
                             "enabled": true, 
                             "id": "2", 
                             "params": {
-                                "field": "metricset.host", 
+                                "field": "service.address", 
                                 "order": "desc", 
                                 "orderBy": "1", 
                                 "size": 5
@@ -87,11 +87,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "Hosts [Metricbeat MongoDB]", 
+                    "title": "Hosts [Metricbeat MongoDB] 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "MongoDB-hosts", 
+            "id": "MongoDB-hosts-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -103,8 +103,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-search", 
-                "title": "Engine & Version [Metricbeat MongoDB]", 
+                "savedSearchId": "MongoDB-search-7x", 
+                "title": "Engine & Version [Metricbeat MongoDB] 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -113,7 +113,7 @@
                             "enabled": true, 
                             "id": "1", 
                             "params": {
-                                "field": "metricset.host"
+                                "field": "service.address"
                             }, 
                             "schema": "metric", 
                             "type": "cardinality"
@@ -153,11 +153,11 @@
                         "shareYAxis": true, 
                         "type": "pie"
                     }, 
-                    "title": "Engine & Version [Metricbeat MongoDB]", 
+                    "title": "Engine & Version [Metricbeat MongoDB] 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "MongoDB-Engine-ampersand-Version", 
+            "id": "MongoDB-Engine-ampersand-Version-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -169,8 +169,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-search", 
-                "title": "Operation counters [Metricbeat MongoDB]", 
+                "savedSearchId": "MongoDB-search-7x", 
+                "title": "Operation counters [Metricbeat MongoDB] 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -326,11 +326,11 @@
                         ], 
                         "yAxis": {}
                     }, 
-                    "title": "Operation counters [Metricbeat MongoDB]", 
+                    "title": "Operation counters [Metricbeat MongoDB] 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "MongoDB-operation-counters", 
+            "id": "MongoDB-operation-counters-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -342,8 +342,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-search", 
-                "title": "Concurrent transactions Read [Metricbeat MongoDB]", 
+                "savedSearchId": "MongoDB-search-7x", 
+                "title": "Concurrent transactions Read [Metricbeat MongoDB] 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "colors": {
@@ -466,11 +466,11 @@
                         ], 
                         "yAxis": {}
                     }, 
-                    "title": "Concurrent transactions Read [Metricbeat MongoDB]", 
+                    "title": "Concurrent transactions Read [Metricbeat MongoDB] 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "MongoDB-Concurrent-transactions-Read", 
+            "id": "MongoDB-Concurrent-transactions-Read-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -482,8 +482,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-search", 
-                "title": "Concurrent transactions Write [Metricbeat MongoDB]", 
+                "savedSearchId": "MongoDB-search-7x", 
+                "title": "Concurrent transactions Write [Metricbeat MongoDB] 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "colors": {
@@ -606,11 +606,11 @@
                         ], 
                         "yAxis": {}
                     }, 
-                    "title": "Concurrent transactions Write [Metricbeat MongoDB]", 
+                    "title": "Concurrent transactions Write [Metricbeat MongoDB] 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "MongoDB-Concurrent-transactions-Write", 
+            "id": "MongoDB-Concurrent-transactions-Write-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -622,8 +622,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-search", 
-                "title": "Memory stats [Metricbeat MongoDB]", 
+                "savedSearchId": "MongoDB-search-7x", 
+                "title": "Memory stats [Metricbeat MongoDB] 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -760,11 +760,11 @@
                         ], 
                         "yAxis": {}
                     }, 
-                    "title": "Memory stats [Metricbeat MongoDB]", 
+                    "title": "Memory stats [Metricbeat MongoDB] 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "MongoDB-memory-stats", 
+            "id": "MongoDB-memory-stats-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -776,8 +776,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-search", 
-                "title": "Asserts [Metricbeat MongoDB]", 
+                "savedSearchId": "MongoDB-search-7x", 
+                "title": "Asserts [Metricbeat MongoDB] 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -923,11 +923,11 @@
                         ], 
                         "yAxis": {}
                     }, 
-                    "title": "Asserts [Metricbeat MongoDB]", 
+                    "title": "Asserts [Metricbeat MongoDB] 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "MongoDB-asserts", 
+            "id": "MongoDB-asserts-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -939,8 +939,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "MongoDB-search", 
-                "title": "WiredTiger Cache [Metricbeat MongoDB]", 
+                "savedSearchId": "MongoDB-search-7x", 
+                "title": "WiredTiger Cache [Metricbeat MongoDB] 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -1066,11 +1066,11 @@
                         ], 
                         "yAxis": {}
                     }, 
-                    "title": "WiredTiger Cache [Metricbeat MongoDB]", 
+                    "title": "WiredTiger Cache [Metricbeat MongoDB] 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "MongoDB-WiredTiger-Cache", 
+            "id": "MongoDB-WiredTiger-Cache-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -1101,7 +1101,7 @@
                         "query": {
                             "query_string": {
                                 "analyze_wildcard": true, 
-                                "query": "metricset.module:mongodb"
+                                "query": "event.module:mongodb"
                             }
                         }
                     }
@@ -1110,10 +1110,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "MongoDB search", 
+                "title": "MongoDB search 7.x", 
                 "version": 1
             }, 
-            "id": "MongoDB-search", 
+            "id": "MongoDB-search-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -1143,7 +1143,7 @@
                 "panelsJSON": [
                     {
                         "col": 1, 
-                        "id": "MongoDB-hosts", 
+                        "id": "MongoDB-hosts-7x", 
                         "panelIndex": 1, 
                         "row": 1, 
                         "size_x": 8, 
@@ -1152,7 +1152,7 @@
                     }, 
                     {
                         "col": 9, 
-                        "id": "MongoDB-Engine-ampersand-Version", 
+                        "id": "MongoDB-Engine-ampersand-Version-7x", 
                         "panelIndex": 4, 
                         "row": 1, 
                         "size_x": 4, 
@@ -1161,7 +1161,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "MongoDB-operation-counters", 
+                        "id": "MongoDB-operation-counters-7x", 
                         "panelIndex": 2, 
                         "row": 4, 
                         "size_x": 6, 
@@ -1170,7 +1170,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "MongoDB-Concurrent-transactions-Read", 
+                        "id": "MongoDB-Concurrent-transactions-Read-7x", 
                         "panelIndex": 6, 
                         "row": 4, 
                         "size_x": 3, 
@@ -1179,7 +1179,7 @@
                     }, 
                     {
                         "col": 10, 
-                        "id": "MongoDB-Concurrent-transactions-Write", 
+                        "id": "MongoDB-Concurrent-transactions-Write-7x", 
                         "panelIndex": 7, 
                         "row": 4, 
                         "size_x": 3, 
@@ -1188,7 +1188,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "MongoDB-memory-stats", 
+                        "id": "MongoDB-memory-stats-7x", 
                         "panelIndex": 5, 
                         "row": 10, 
                         "size_x": 12, 
@@ -1197,7 +1197,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "MongoDB-asserts", 
+                        "id": "MongoDB-asserts-7x", 
                         "panelIndex": 3, 
                         "row": 7, 
                         "size_x": 6, 
@@ -1206,7 +1206,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "MongoDB-WiredTiger-Cache", 
+                        "id": "MongoDB-WiredTiger-Cache-7x", 
                         "panelIndex": 8, 
                         "row": 7, 
                         "size_x": 6, 
@@ -1215,7 +1215,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Metricbeat MongoDB] Overview", 
+                "title": "[Metricbeat MongoDB] Overview 7.x", 
                 "uiStateJSON": {
                     "P-1": {
                         "vis": {
@@ -1230,7 +1230,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "Metricbeat-MongoDB", 
+            "id": "Metricbeat-MongoDB-7x", 
             "type": "dashboard", 
             "version": 3
         }

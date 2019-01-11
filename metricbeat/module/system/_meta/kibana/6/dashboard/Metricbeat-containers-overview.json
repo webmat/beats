@@ -18,7 +18,7 @@
                         }
                     }
                 }, 
-                "title": "Container CPU usage [Metricbeat System]", 
+                "title": "Container CPU usage [Metricbeat System] 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -110,11 +110,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "Container CPU usage [Metricbeat System]", 
+                    "title": "Container CPU usage [Metricbeat System] 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "Container-CPU-usage", 
+            "id": "Container-CPU-usage-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -135,20 +135,20 @@
                         }
                     }
                 }, 
-                "title": "System Navigation [Metricbeat System]", 
+                "title": "System Navigation-7x [Metricbeat System] 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": 12, 
-                        "markdown": "[System Overview](#/dashboard/Metricbeat-system-overview)  | [Host Overview](#/dashboard/79ffd6e0-faa0-11e6-947f-177f697178b8) |\n[Containers overview](#/dashboard/CPU-slash-Memory-per-container)"
+                        "markdown": "[System Overview](#/dashboard/Metricbeat-system-overview-7x)  | [Host Overview](#/dashboard/79ffd6e0-faa0-11e6-947f-177f697178b8-7x) |\n[Containers overview](#/dashboard/CPU-slash-Memory-per-container-7x)"
                     }, 
-                    "title": "System Navigation [Metricbeat System]", 
+                    "title": "System Navigation-7x [Metricbeat System] 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "System-Navigation", 
+            "id": "System-Navigation-7x-7x", 
             "type": "visualization", 
             "version": 3
         }, 
@@ -170,7 +170,7 @@
                         }
                     }
                 }, 
-                "title": "Container Memory stats [Metricbeat System]", 
+                "title": "Container Memory stats [Metricbeat System] 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -352,11 +352,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "Container Memory stats [Metricbeat System]", 
+                    "title": "Container Memory stats [Metricbeat System] 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "Container-Memory-stats", 
+            "id": "Container-Memory-stats-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -378,7 +378,7 @@
                         }
                     }
                 }, 
-                "title": "Container Block IO [Metricbeat System]", 
+                "title": "Container Block IO [Metricbeat System] 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -450,11 +450,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "Container Block IO [Metricbeat System]", 
+                    "title": "Container Block IO [Metricbeat System] 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "Container-Block-IO", 
+            "id": "Container-Block-IO-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -484,7 +484,7 @@
                 "panelsJSON": [
                     {
                         "col": 1, 
-                        "id": "Container-CPU-usage", 
+                        "id": "Container-CPU-usage-7x", 
                         "panelIndex": 2, 
                         "row": 2, 
                         "size_x": 12, 
@@ -493,7 +493,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "System-Navigation", 
+                        "id": "System-Navigation-7x-7x", 
                         "panelIndex": 3, 
                         "row": 1, 
                         "size_x": 12, 
@@ -502,7 +502,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Container-Memory-stats", 
+                        "id": "Container-Memory-stats-7x", 
                         "panelIndex": 4, 
                         "row": 5, 
                         "size_x": 12, 
@@ -511,7 +511,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Container-Block-IO", 
+                        "id": "Container-Block-IO-7x", 
                         "panelIndex": 5, 
                         "row": 8, 
                         "size_x": 12, 
@@ -520,7 +520,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Metricbeat System] Containers overview", 
+                "title": "[Metricbeat System] Containers overview 7.x", 
                 "uiStateJSON": {
                     "P-2": {
                         "vis": {
@@ -555,7 +555,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "CPU-slash-Memory-per-container", 
+            "id": "CPU-slash-Memory-per-container-7x", 
             "type": "dashboard", 
             "version": 1
         }

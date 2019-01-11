@@ -17,20 +17,20 @@
                         }
                     }
                 }, 
-                "title": "Navigation", 
+                "title": "Navigation-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": "10", 
-                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard)\n\n[Flows](#/dashboard/Packetbeat-Flows)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra)"
+                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard-7x)\n\n[Flows](#/dashboard/Packetbeat-Flows-7x)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP-7x)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance-7x)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance-7x)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance-7x)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance-7x)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS-7x)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra-7x)"
                     }, 
-                    "title": "Navigation", 
+                    "title": "Navigation-7x 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "Navigation", 
+            "id": "Navigation-7x 7.x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 10
@@ -47,8 +47,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063", 
-                "title": "TLS Sessions", 
+                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063-7x", 
+                "title": "TLS Sessions 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "colors": {
@@ -166,11 +166,11 @@
                             }
                         ]
                     }, 
-                    "title": "TLS Sessions", 
+                    "title": "TLS Sessions 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "059fe5e0-d2dd-11e7-9914-4982455b3063", 
+            "id": "059fe5e0-d2dd-11e7-9914-4982455b3063-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-30T00:11:22.296Z", 
             "version": 2
@@ -208,7 +208,7 @@
                         }
                     }
                 }, 
-                "title": "TLS Alerts", 
+                "title": "TLS Alerts 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "colors": {
@@ -249,11 +249,11 @@
                         "legendPosition": "right", 
                         "type": "pie"
                     }, 
-                    "title": "TLS Alerts", 
+                    "title": "TLS Alerts 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "c14377a0-d353-11e7-9914-4982455b3063", 
+            "id": "c14377a0-d353-11e7-9914-4982455b3063-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -294,7 +294,7 @@
                         }
                     }
                 }, 
-                "title": "Total Number of TLS Sessions", 
+                "title": "Total Number of TLS Sessions 7.x", 
                 "uiStateJSON": {
                     "P-5": {
                         "vis": {
@@ -353,11 +353,11 @@
                         }, 
                         "type": "metric"
                     }, 
-                    "title": "Total Number of TLS Sessions", 
+                    "title": "Total Number of TLS Sessions 7.x", 
                     "type": "metric"
                 }
             }, 
-            "id": "061de380-d361-11e7-9914-4982455b3063", 
+            "id": "061de380-d361-11e7-9914-4982455b3063-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -374,8 +374,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "94908e80-d2d8-11e7-9914-4982455b3063", 
-                "title": "TLS Server Name Indication", 
+                "savedSearchId": "94908e80-d2d8-11e7-9914-4982455b3063-7x", 
+                "title": "TLS Server Name Indication 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -408,11 +408,11 @@
                         "orientation": "single", 
                         "scale": "linear"
                     }, 
-                    "title": "TLS Server Name Indication", 
+                    "title": "TLS Server Name Indication 7.x", 
                     "type": "tagcloud"
                 }
             }, 
-            "id": "a28d09d0-d361-11e7-9914-4982455b3063", 
+            "id": "a28d09d0-d361-11e7-9914-4982455b3063-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -429,8 +429,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "bf3d23b0-d37c-11e7-9914-4982455b3063", 
-                "title": "TLS Versions", 
+                "savedSearchId": "bf3d23b0-d37c-11e7-9914-4982455b3063-7x", 
+                "title": "TLS Versions 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -463,11 +463,11 @@
                         "legendPosition": "right", 
                         "type": "pie"
                     }, 
-                    "title": "TLS Versions", 
+                    "title": "TLS Versions 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "0af0b790-d37d-11e7-9914-4982455b3063", 
+            "id": "0af0b790-d37d-11e7-9914-4982455b3063-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -484,8 +484,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "8f0ff590-d37d-11e7-9914-4982455b3063", 
-                "title": "TLS Server Public Key Size", 
+                "savedSearchId": "8f0ff590-d37d-11e7-9914-4982455b3063-7x", 
+                "title": "TLS Server Public Key Size 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -518,11 +518,11 @@
                         "legendPosition": "right", 
                         "type": "pie"
                     }, 
-                    "title": "Server Public Key Size", 
+                    "title": "Server Public Key Size 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "ae6e33c0-d37d-11e7-9914-4982455b3063", 
+            "id": "ae6e33c0-d37d-11e7-9914-4982455b3063-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -539,8 +539,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063", 
-                "title": "TLS Session Resume", 
+                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063-7x", 
+                "title": "TLS Session Resume 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -574,11 +574,11 @@
                         "legendPosition": "right", 
                         "type": "pie"
                     }, 
-                    "title": "TLS Session Resume", 
+                    "title": "TLS Session Resume 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "2c467370-d392-11e7-8fa0-232aa9259081", 
+            "id": "2c467370-d392-11e7-8fa0-232aa9259081-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -595,8 +595,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063", 
-                "title": "TLS Server Certificates", 
+                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063-7x", 
+                "title": "TLS Server Certificates 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -657,11 +657,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "TLS Server Certificates", 
+                    "title": "TLS Server Certificates 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "0958a910-d396-11e7-8fa0-232aa9259081", 
+            "id": "0958a910-d396-11e7-8fa0-232aa9259081-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -678,8 +678,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063", 
-                "title": "TLS Client Certificates", 
+                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063-7x", 
+                "title": "TLS Client Certificates 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -739,11 +739,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "TLS Client Certificates", 
+                    "title": "TLS Client Certificates 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "86743f90-d396-11e7-8fa0-232aa9259081", 
+            "id": "86743f90-d396-11e7-8fa0-232aa9259081-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -760,8 +760,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063", 
-                "title": "TLS Cipher", 
+                "savedSearchId": "ffc3c0b0-d2d7-11e7-9914-4982455b3063-7x", 
+                "title": "TLS Cipher 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -807,11 +807,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "TLS Cipher", 
+                    "title": "TLS Cipher 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "463d2bf0-d3a8-11e7-9081-ab2af08e9961", 
+            "id": "463d2bf0-d3a8-11e7-9081-ab2af08e9961-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -828,8 +828,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "6b1b1360-d49d-11e7-996f-bd7c1ca4591b", 
-                "title": "TLS Fingerprint", 
+                "savedSearchId": "6b1b1360-d49d-11e7-996f-bd7c1ca4591b-7x", 
+                "title": "TLS Fingerprint 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -875,11 +875,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "TLS Fingerprint", 
+                    "title": "TLS Fingerprint 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "ad2a8b50-d49d-11e7-996f-bd7c1ca4591b", 
+            "id": "ad2a8b50-d49d-11e7-996f-bd7c1ca4591b-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -898,7 +898,7 @@
                                     "alias": null, 
                                     "disabled": false, 
                                     "index": "packetbeat-*", 
-                                    "key": "responsetime", 
+                                    "key": "event.duration", 
                                     "negate": false, 
                                     "params": {
                                         "gte": 0, 
@@ -908,7 +908,7 @@
                                     "value": "0 to 1,000"
                                 }, 
                                 "range": {
-                                    "responsetime": {
+                                    "event.duration": {
                                         "gte": 0, 
                                         "lt": 1000
                                     }
@@ -921,8 +921,8 @@
                         }
                     }
                 }, 
-                "savedSearchId": "8e2af860-d520-11e7-9fff-7b1ebf397ba9", 
-                "title": "TLS handshake latency", 
+                "savedSearchId": "8e2af860-d520-11e7-9fff-7b1ebf397ba9-7x", 
+                "title": "TLS handshake latency 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "legendOpen": false
@@ -944,7 +944,7 @@
                             "params": {
                                 "customLabel": "Handshake latency (milliseconds)", 
                                 "extended_bounds": {}, 
-                                "field": "responsetime", 
+                                "field": "event.duration", 
                                 "interval": 2
                             }, 
                             "schema": "segment", 
@@ -1021,11 +1021,11 @@
                             }
                         ]
                     }, 
-                    "title": "TLS handshake latency", 
+                    "title": "TLS handshake latency 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "d2e15950-d560-11e7-9fff-7b1ebf397ba9", 
+            "id": "d2e15950-d560-11e7-9fff-7b1ebf397ba9-7x", 
             "type": "visualization", 
             "updated_at": "2017-11-30T00:10:49.715Z", 
             "version": 2
@@ -1076,10 +1076,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "TLS Sessions", 
+                "title": "TLS Sessions 7.x", 
                 "version": 1
             }, 
-            "id": "ffc3c0b0-d2d7-11e7-9914-4982455b3063", 
+            "id": "ffc3c0b0-d2d7-11e7-9914-4982455b3063-7x", 
             "type": "search", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -1130,10 +1130,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "TLS Server Name Indication", 
+                "title": "TLS Server Name Indication 7.x", 
                 "version": 1
             }, 
-            "id": "94908e80-d2d8-11e7-9914-4982455b3063", 
+            "id": "94908e80-d2d8-11e7-9914-4982455b3063-7x", 
             "type": "search", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -1184,10 +1184,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "TLS Version", 
+                "title": "TLS Version 7.x", 
                 "version": 1
             }, 
-            "id": "bf3d23b0-d37c-11e7-9914-4982455b3063", 
+            "id": "bf3d23b0-d37c-11e7-9914-4982455b3063-7x", 
             "type": "search", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -1238,10 +1238,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Server Public Key Size", 
+                "title": "Server Public Key Size 7.x", 
                 "version": 1
             }, 
-            "id": "8f0ff590-d37d-11e7-9914-4982455b3063", 
+            "id": "8f0ff590-d37d-11e7-9914-4982455b3063-7x", 
             "type": "search", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -1287,10 +1287,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "TLS Fingerprint", 
+                "title": "TLS Fingerprint 7.x", 
                 "version": 1
             }, 
-            "id": "6b1b1360-d49d-11e7-996f-bd7c1ca4591b", 
+            "id": "6b1b1360-d49d-11e7-996f-bd7c1ca4591b-7x", 
             "type": "search", 
             "updated_at": "2017-11-29T15:31:44.592Z", 
             "version": 1
@@ -1327,13 +1327,13 @@
                                     "store": "appState"
                                 }, 
                                 "exists": {
-                                    "field": "responsetime"
+                                    "field": "event.duration"
                                 }, 
                                 "meta": {
                                     "alias": null, 
                                     "disabled": false, 
                                     "index": "packetbeat-*", 
-                                    "key": "responsetime", 
+                                    "key": "event.duration", 
                                     "negate": false, 
                                     "type": "exists", 
                                     "value": "exists"
@@ -1353,17 +1353,17 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "TLS handshake latency", 
+                "title": "TLS handshake latency 7.x", 
                 "version": 1
             }, 
-            "id": "8e2af860-d520-11e7-9fff-7b1ebf397ba9", 
+            "id": "8e2af860-d520-11e7-9fff-7b1ebf397ba9-7x", 
             "type": "search", 
             "updated_at": "2017-11-29T16:33:23.311Z", 
             "version": 2
         }, 
         {
             "attributes": {
-                "description": "TLS Sessions", 
+                "description": "TLS Sessions 7.x", 
                 "hits": 0, 
                 "kibanaSavedObjectMeta": {
                     "searchSourceJSON": {
@@ -1394,7 +1394,7 @@
                             "x": 0, 
                             "y": 0
                         }, 
-                        "id": "Navigation", 
+                        "id": "Navigation-7x 7.x", 
                         "panelIndex": "4", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1407,7 +1407,7 @@
                             "x": 3, 
                             "y": 0
                         }, 
-                        "id": "059fe5e0-d2dd-11e7-9914-4982455b3063", 
+                        "id": "059fe5e0-d2dd-11e7-9914-4982455b3063-7x", 
                         "panelIndex": "8", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1420,7 +1420,7 @@
                             "x": 3, 
                             "y": 7
                         }, 
-                        "id": "c14377a0-d353-11e7-9914-4982455b3063", 
+                        "id": "c14377a0-d353-11e7-9914-4982455b3063-7x", 
                         "panelIndex": "9", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1433,7 +1433,7 @@
                             "x": 0, 
                             "y": 4
                         }, 
-                        "id": "061de380-d361-11e7-9914-4982455b3063", 
+                        "id": "061de380-d361-11e7-9914-4982455b3063-7x", 
                         "panelIndex": "10", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1446,7 +1446,7 @@
                             "x": 0, 
                             "y": 10
                         }, 
-                        "id": "a28d09d0-d361-11e7-9914-4982455b3063", 
+                        "id": "a28d09d0-d361-11e7-9914-4982455b3063-7x", 
                         "panelIndex": "11", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1459,7 +1459,7 @@
                             "x": 6, 
                             "y": 7
                         }, 
-                        "id": "0af0b790-d37d-11e7-9914-4982455b3063", 
+                        "id": "0af0b790-d37d-11e7-9914-4982455b3063-7x", 
                         "panelIndex": "12", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1472,7 +1472,7 @@
                             "x": 9, 
                             "y": 7
                         }, 
-                        "id": "ae6e33c0-d37d-11e7-9914-4982455b3063", 
+                        "id": "ae6e33c0-d37d-11e7-9914-4982455b3063-7x", 
                         "panelIndex": "13", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1485,7 +1485,7 @@
                             "x": 0, 
                             "y": 7
                         }, 
-                        "id": "2c467370-d392-11e7-8fa0-232aa9259081", 
+                        "id": "2c467370-d392-11e7-8fa0-232aa9259081-7x", 
                         "panelIndex": "14", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1498,7 +1498,7 @@
                             "x": 0, 
                             "y": 13
                         }, 
-                        "id": "0958a910-d396-11e7-8fa0-232aa9259081", 
+                        "id": "0958a910-d396-11e7-8fa0-232aa9259081-7x", 
                         "panelIndex": "15", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1511,7 +1511,7 @@
                             "x": 0, 
                             "y": 16
                         }, 
-                        "id": "86743f90-d396-11e7-8fa0-232aa9259081", 
+                        "id": "86743f90-d396-11e7-8fa0-232aa9259081-7x", 
                         "panelIndex": "16", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1524,7 +1524,7 @@
                             "x": 6, 
                             "y": 13
                         }, 
-                        "id": "463d2bf0-d3a8-11e7-9081-ab2af08e9961", 
+                        "id": "463d2bf0-d3a8-11e7-9081-ab2af08e9961-7x", 
                         "panelIndex": "17", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1537,7 +1537,7 @@
                             "x": 6, 
                             "y": 16
                         }, 
-                        "id": "ad2a8b50-d49d-11e7-996f-bd7c1ca4591b", 
+                        "id": "ad2a8b50-d49d-11e7-996f-bd7c1ca4591b-7x", 
                         "panelIndex": "18", 
                         "type": "visualization", 
                         "version": "6.2.4"
@@ -1550,14 +1550,14 @@
                             "x": 3, 
                             "y": 4
                         }, 
-                        "id": "d2e15950-d560-11e7-9fff-7b1ebf397ba9", 
+                        "id": "d2e15950-d560-11e7-9fff-7b1ebf397ba9-7x", 
                         "panelIndex": "19", 
                         "type": "visualization", 
                         "version": "6.2.4"
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Packetbeat] TLS Sessions", 
+                "title": "[Packetbeat] TLS Sessions 7.x", 
                 "uiStateJSON": {
                     "P-15": {
                         "vis": {
@@ -1619,7 +1619,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "tls-sessions", 
+            "id": "tls-sessions-7x", 
             "type": "dashboard", 
             "updated_at": "2017-11-30T00:16:42.402Z", 
             "version": 2

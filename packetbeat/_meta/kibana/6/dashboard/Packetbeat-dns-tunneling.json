@@ -8,8 +8,8 @@
             "filter": []
           }
         },
-        "savedSearchId": "d19e8485-7df5-47ce-8009-9dc3c42bcf17",
-        "title": "Unique FQDNs per eTLD+1",
+        "savedSearchId": "d19e8485-7df5-47ce-8009-9dc3c42bcf17-7x",
+        "title": "Unique FQDNs per eTLD+1 7.x",
         "uiStateJSON": {
           "vis": {
             "colors": {
@@ -59,11 +59,11 @@
             "times": [],
             "yAxis": {}
           },
-          "title": "Unique FQDNs per eTLD+1",
+          "title": "Unique FQDNs per eTLD+1 7.x",
           "type": "histogram"
         }
       },
-      "id": "Unique-FQDNs-per-eTLD 1",
+      "id": "Unique-FQDNs-per-eTLD 1-7x",
       "type": "visualization",
       "updated_at": "2019-01-08T00:15:10.701Z",
       "version": 1
@@ -76,8 +76,8 @@
             "filter": []
           }
         },
-        "savedSearchId": "d19e8485-7df5-47ce-8009-9dc3c42bcf17",
-        "title": "Unique FQDNs per eTLD+1 Table",
+        "savedSearchId": "d19e8485-7df5-47ce-8009-9dc3c42bcf17-7x",
+        "title": "Unique FQDNs per eTLD+1 Table 7.x",
         "uiStateJSON": {
           "vis": {
             "params": {
@@ -136,11 +136,11 @@
             },
             "totalFunc": "sum"
           },
-          "title": "Unique FQDNs per eTLD+1 Table",
+          "title": "Unique FQDNs per eTLD+1 Table 7.x",
           "type": "table"
         }
       },
-      "id": "Unique-FQDNs-per-eTLD 1-Table",
+      "id": "Unique-FQDNs-per-eTLD 1-7x-Table",
       "type": "visualization",
       "updated_at": "2019-01-08T00:15:10.701Z",
       "version": 1
@@ -157,8 +157,8 @@
             }
           }
         },
-        "savedSearchId": "d19e8485-7df5-47ce-8009-9dc3c42bcf17",
-        "title": "Bytes Transferred per Domain",
+        "savedSearchId": "d19e8485-7df5-47ce-8009-9dc3c42bcf17-7x",
+        "title": "Bytes Transferred per Domain 7.x",
         "uiStateJSON": {
           "vis": {
             "colors": {
@@ -294,11 +294,11 @@
             ],
             "yAxis": {}
           },
-          "title": "Bytes Transferred per Domain",
+          "title": "Bytes Transferred per Domain 7.x",
           "type": "histogram"
         }
       },
-      "id": "Bytes-Transferred-per-Domain",
+      "id": "Bytes-Transferred-per-Domain-7x",
       "type": "visualization",
       "updated_at": "2019-01-08T00:22:51.148Z",
       "version": 2
@@ -321,7 +321,7 @@
             }
           }
         },
-        "title": "Top Domains by Data Volume",
+        "title": "Top Domains by Data Volume 7.x",
         "uiStateJSON": {
           "vis": {
             "params": {
@@ -384,11 +384,11 @@
             },
             "totalFunc": "sum"
           },
-          "title": "Top Domains by Data Volume",
+          "title": "Top Domains by Data Volume 7.x",
           "type": "table"
         }
       },
-      "id": "dc743240-1665-11e7-a6de-cbac1a3d0a7d",
+      "id": "dc743240-1665-11e7-a6de-cbac1a3d0a7d-7x",
       "type": "visualization",
       "updated_at": "2019-01-08T00:24:51.603Z",
       "version": 3
@@ -456,10 +456,10 @@
           "@timestamp",
           "desc"
         ],
-        "title": "DNS Protocol [Packetbeat]",
+        "title": "DNS Protocol [Packetbeat] 7.x",
         "version": 1
       },
-      "id": "d19e8485-7df5-47ce-8009-9dc3c42bcf17",
+      "id": "d19e8485-7df5-47ce-8009-9dc3c42bcf17-7x",
       "type": "search",
       "updated_at": "2019-01-08T00:20:16.879Z",
       "version": 3
@@ -507,7 +507,7 @@
               "x": 0,
               "y": 0
             },
-            "id": "Unique-FQDNs-per-eTLD 1",
+            "id": "Unique-FQDNs-per-eTLD 1-7x",
             "panelIndex": "1",
             "type": "visualization",
             "version": "7.0.0-SNAPSHOT"
@@ -530,7 +530,7 @@
               "x": 0,
               "y": 35
             },
-            "id": "Unique-FQDNs-per-eTLD 1-Table",
+            "id": "Unique-FQDNs-per-eTLD 1-7x-Table",
             "panelIndex": "2",
             "type": "visualization",
             "version": "7.0.0-SNAPSHOT"
@@ -548,7 +548,7 @@
               "x": 0,
               "y": 20
             },
-            "id": "Bytes-Transferred-per-Domain",
+            "id": "Bytes-Transferred-per-Domain-7x",
             "panelIndex": "4",
             "type": "visualization",
             "version": "7.0.0-SNAPSHOT"
@@ -571,17 +571,17 @@
               "x": 24,
               "y": 35
             },
-            "id": "dc743240-1665-11e7-a6de-cbac1a3d0a7d",
+            "id": "dc743240-1665-11e7-a6de-cbac1a3d0a7d-7x",
             "panelIndex": "5",
             "type": "visualization",
             "version": "7.0.0-SNAPSHOT"
           }
         ],
         "timeRestore": false,
-        "title": "[Packetbeat] DNS Tunneling",
+        "title": "[Packetbeat] DNS Tunneling 7.x",
         "version": 1
       },
-      "id": "DNS-Unique-Domains",
+      "id": "DNS-Unique-Domains-7x",
       "type": "dashboard",
       "updated_at": "2019-01-08T00:27:14.608Z",
       "version": 3

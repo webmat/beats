@@ -8,8 +8,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Kafka stacktraces", 
-                "title": "Number of stracktraces by class [Filebeat Kafka]", 
+                "savedSearchId": "Kafka stacktraces-7x", 
+                "title": "Number of stracktraces by class [Filebeat Kafka] 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -117,11 +117,11 @@
                             }
                         ]
                     }, 
-                    "title": "Number of Kafka stracktraces by class", 
+                    "title": "Number of Kafka stracktraces by class-7x 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Number of Kafka stracktraces by class", 
+            "id": "Number of Kafka stracktraces by class-7x 7.x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -150,19 +150,19 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Stacktraces [Filebeat Kafka]", 
+                "title": "Stacktraces [Filebeat Kafka] 7.x", 
                 "version": 1
             }, 
-            "id": "Kafka stacktraces", 
+            "id": "Kafka stacktraces-7x", 
             "type": "search", 
             "version": 1
         }, 
         {
             "attributes": {
                 "columns": [
-                    "kafka.log.level", 
+                    "log.level", 
                     "kafka.log.component", 
-                    "kafka.log.message"
+                    "message"
                 ], 
                 "description": "", 
                 "hits": 0, 
@@ -177,7 +177,7 @@
                                     "alias": null, 
                                     "disabled": false, 
                                     "index": "filebeat-*", 
-                                    "key": "fileset.module", 
+                                    "key": "event.module", 
                                     "negate": false, 
                                     "params": {
                                         "query": "kafka", 
@@ -188,7 +188,7 @@
                                 }, 
                                 "query": {
                                     "match": {
-                                        "fileset.module": {
+                                        "event.module": {
                                             "query": "kafka", 
                                             "type": "phrase"
                                         }
@@ -203,7 +203,7 @@
                                     "alias": null, 
                                     "disabled": false, 
                                     "index": "filebeat-*", 
-                                    "key": "fileset.name", 
+                                    "key": "event.dataset", 
                                     "negate": false, 
                                     "params": {
                                         "query": "log", 
@@ -214,7 +214,7 @@
                                 }, 
                                 "query": {
                                     "match": {
-                                        "fileset.name": {
+                                        "event.dataset": {
                                             "query": "log", 
                                             "type": "phrase"
                                         }
@@ -235,10 +235,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "All logs [Filebeat Kafka]", 
+                "title": "All logs [Filebeat Kafka] 7.x", 
                 "version": 1
             }, 
-            "id": "All Kafka logs", 
+            "id": "All Kafka logs-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -250,8 +250,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "All Kafka logs", 
-                "title": "Log levels over time [Filebeat Kafka]", 
+                "savedSearchId": "All Kafka logs-7x", 
+                "title": "Log levels over time [Filebeat Kafka] 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -281,7 +281,7 @@
                             "id": "3", 
                             "params": {
                                 "customLabel": "Log Level", 
-                                "field": "kafka.log.level", 
+                                "field": "log.level", 
                                 "order": "desc", 
                                 "orderBy": "1", 
                                 "size": 5
@@ -360,11 +360,11 @@
                             }
                         ]
                     }, 
-                    "title": "Log levels over time [Filebeat Kafka]", 
+                    "title": "Log levels over time [Filebeat Kafka] 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "3f7c33c0-87ee-11e7-ad9c-db80de0bf8d3", 
+            "id": "3f7c33c0-87ee-11e7-ad9c-db80de0bf8d3-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -389,7 +389,7 @@
                 "panelsJSON": [
                     {
                         "col": 1, 
-                        "id": "Number of Kafka stracktraces by class", 
+                        "id": "Number of Kafka stracktraces by class-7x 7.x", 
                         "panelIndex": 1, 
                         "row": 1, 
                         "size_x": 6, 
@@ -403,7 +403,7 @@
                             "kafka.log.trace.class", 
                             "kafka.log.trace.full"
                         ], 
-                        "id": "Kafka stacktraces", 
+                        "id": "Kafka stacktraces-7x", 
                         "panelIndex": 2, 
                         "row": 1, 
                         "size_x": 6, 
@@ -417,11 +417,11 @@
                     {
                         "col": 1, 
                         "columns": [
-                            "kafka.log.level", 
+                            "log.level", 
                             "kafka.log.component", 
-                            "kafka.log.message"
+                            "message"
                         ], 
-                        "id": "All Kafka logs", 
+                        "id": "All Kafka logs-7x", 
                         "panelIndex": 3, 
                         "row": 6, 
                         "size_x": 12, 
@@ -434,7 +434,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "3f7c33c0-87ee-11e7-ad9c-db80de0bf8d3", 
+                        "id": "3f7c33c0-87ee-11e7-ad9c-db80de0bf8d3-7x", 
                         "panelIndex": 4, 
                         "row": 4, 
                         "size_x": 12, 
@@ -443,11 +443,11 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Filebeat Kafka] Overview", 
+                "title": "[Filebeat Kafka] Overview 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1
             }, 
-            "id": "943caca0-87ee-11e7-ad9c-db80de0bf8d3", 
+            "id": "943caca0-87ee-11e7-ad9c-db80de0bf8d3-7x", 
             "type": "dashboard", 
             "version": 1
         }

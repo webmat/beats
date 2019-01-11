@@ -15,7 +15,7 @@
                         }
                     }
                 }, 
-                "title": "Number of Events Over Time By Event Log", 
+                "title": "Number of Events Over Time By Event Log 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -66,7 +66,7 @@
                     "type": "histogram"
                 }
             }, 
-            "id": "Number-of-Events-Over-Time-By-Event-Log", 
+            "id": "Number-of-Events-7x-Over-Time-By-Event-Log", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -85,7 +85,7 @@
                         }
                     }
                 }, 
-                "title": "Number of Events", 
+                "title": "Number of Events 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -104,7 +104,7 @@
                     "type": "metric"
                 }
             }, 
-            "id": "Number-of-Events", 
+            "id": "Number-of-Events-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -123,7 +123,7 @@
                         }
                     }
                 }, 
-                "title": "Top Event IDs", 
+                "title": "Top Event IDs 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -155,7 +155,7 @@
                     "type": "table"
                 }
             }, 
-            "id": "Top-Event-IDs", 
+            "id": "Top-Event-IDs-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -174,7 +174,7 @@
                         }
                     }
                 }, 
-                "title": "Event Levels", 
+                "title": "Event Levels 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -220,11 +220,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "Event Levels", 
+                    "title": "Event Levels 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "Event-Levels", 
+            "id": "Event-Levels-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -243,7 +243,7 @@
                         }
                     }
                 }, 
-                "title": "Sources", 
+                "title": "Sources-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -276,11 +276,11 @@
                         "legendPosition": "right", 
                         "shareYAxis": true
                     }, 
-                    "title": "Sources", 
+                    "title": "Sources-7x 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "Sources", 
+            "id": "Sources-7x 7.x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -308,7 +308,7 @@
                 "panelsJSON": [
                     {
                         "col": 4, 
-                        "id": "Number-of-Events-Over-Time-By-Event-Log", 
+                        "id": "Number-of-Events-7x-Over-Time-By-Event-Log", 
                         "panelIndex": 1, 
                         "row": 1, 
                         "size_x": 9, 
@@ -317,7 +317,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Number-of-Events", 
+                        "id": "Number-of-Events-7x", 
                         "panelIndex": 3, 
                         "row": 1, 
                         "size_x": 3, 
@@ -326,7 +326,7 @@
                     }, 
                     {
                         "col": 5, 
-                        "id": "Top-Event-IDs", 
+                        "id": "Top-Event-IDs-7x", 
                         "panelIndex": 4, 
                         "row": 5, 
                         "size_x": 4, 
@@ -335,7 +335,7 @@
                     }, 
                     {
                         "col": 9, 
-                        "id": "Event-Levels", 
+                        "id": "Event-Levels-7x", 
                         "panelIndex": 5, 
                         "row": 5, 
                         "size_x": 4, 
@@ -344,7 +344,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Sources", 
+                        "id": "Sources-7x 7.x", 
                         "panelIndex": 6, 
                         "row": 5, 
                         "size_x": 4, 
@@ -353,11 +353,11 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "Winlogbeat Dashboard", 
+                "title": "Winlogbeat Dashboard 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1
             }, 
-            "id": "Winlogbeat-Dashboard", 
+            "id": "Winlogbeat-Dashboard-7x", 
             "type": "dashboard", 
             "version": 1
         }

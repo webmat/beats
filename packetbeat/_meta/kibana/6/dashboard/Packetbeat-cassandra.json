@@ -15,7 +15,7 @@
                         }
                     }
                 }, 
-                "title": "Cassandra ResponseKeyspace", 
+                "title": "Cassandra ResponseKeyspace 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -60,11 +60,11 @@
                         "legendPosition": "right", 
                         "shareYAxis": true
                     }, 
-                    "title": "Cassandra ResponseKeyspace", 
+                    "title": "Cassandra ResponseKeyspace 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "Cassandra-ResponseKeyspace", 
+            "id": "Cassandra-ResponseKeyspace-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -83,7 +83,7 @@
                         }
                     }
                 }, 
-                "title": "Cassandra ResponseType", 
+                "title": "Cassandra ResponseType 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -116,11 +116,11 @@
                         "legendPosition": "right", 
                         "shareYAxis": true
                     }, 
-                    "title": "Cassandra ResponseType", 
+                    "title": "Cassandra ResponseType 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "Cassandra-ResponseType", 
+            "id": "Cassandra-ResponseType-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -139,7 +139,7 @@
                         }
                     }
                 }, 
-                "title": "Cassandra ResponseTime", 
+                "title": "Cassandra ResponseTime 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -148,7 +148,7 @@
                             "enabled": true, 
                             "id": "1", 
                             "params": {
-                                "field": "responsetime", 
+                                "field": "event.duration", 
                                 "percents": [
                                     5, 
                                     25, 
@@ -192,11 +192,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Cassandra ResponseTime", 
+                    "title": "Cassandra ResponseTime 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "Cassandra-ResponseTime", 
+            "id": "Cassandra-ResponseTime-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -215,7 +215,7 @@
                         }
                     }
                 }, 
-                "title": "Cassandra RequestCount", 
+                "title": "Cassandra RequestCount 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -259,11 +259,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Cassandra RequestCount", 
+                    "title": "Cassandra RequestCount 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "Cassandra-RequestCount", 
+            "id": "Cassandra-RequestCount-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -282,7 +282,7 @@
                         }
                     }
                 }, 
-                "title": "Cassandra Ops", 
+                "title": "Cassandra Ops 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -327,11 +327,11 @@
                         "legendPosition": "right", 
                         "shareYAxis": true
                     }, 
-                    "title": "Cassandra Ops", 
+                    "title": "Cassandra Ops 7.x", 
                     "type": "pie"
                 }
             }, 
-            "id": "Cassandra-Ops", 
+            "id": "Cassandra-Ops-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -350,7 +350,7 @@
                         }
                     }
                 }, 
-                "title": "Cassandra RequestCountStackByType", 
+                "title": "Cassandra RequestCountStackByType 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -402,11 +402,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Cassandra RequestCountStackByType", 
+                    "title": "Cassandra RequestCountStackByType 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Cassandra-RequestCountStackByType", 
+            "id": "Cassandra-RequestCount-7xStackByType", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -425,7 +425,7 @@
                         }
                     }
                 }, 
-                "title": "Cassandra ResponseCountStackByType", 
+                "title": "Cassandra ResponseCountStackByType 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -477,11 +477,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Cassandra ResponseCountStackByType", 
+                    "title": "Cassandra ResponseCountStackByType 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Cassandra-ResponseCountStackByType", 
+            "id": "Cassandra-ResponseCountStackByType-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -500,7 +500,7 @@
                         }
                     }
                 }, 
-                "title": "Cassandra RequestCountByType", 
+                "title": "Cassandra RequestCountByType 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -563,11 +563,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Cassandra RequestCountByType", 
+                    "title": "Cassandra RequestCountByType 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "Cassandra-RequestCountByType", 
+            "id": "Cassandra-RequestCount-7xByType-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -586,7 +586,7 @@
                         }
                     }
                 }, 
-                "title": "Cassandra ResponseCountByType", 
+                "title": "Cassandra ResponseCountByType 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -644,11 +644,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Cassandra: ResponseCountByType", 
+                    "title": "Cassandra: ResponseCountByType 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "Cassandra-ResponseCountByType", 
+            "id": "Cassandra-ResponseCountByType-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -669,20 +669,20 @@
                         }
                     }
                 }, 
-                "title": "Navigation", 
+                "title": "Navigation-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": "10", 
-                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard)\n\n[Flows](#/dashboard/Packetbeat-Flows)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra)"
+                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard-7x)\n\n[Flows](#/dashboard/Packetbeat-Flows-7x)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP-7x)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance-7x)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance-7x)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance-7x)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance-7x)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS-7x)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra-7x)"
                     }, 
-                    "title": "Navigation", 
+                    "title": "Navigation-7x 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "Navigation", 
+            "id": "Navigation-7x 7.x", 
             "type": "visualization", 
             "version": 10
         }, 
@@ -768,10 +768,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Cassandra QueryView", 
+                "title": "Cassandra QueryView 7.x", 
                 "version": 1
             }, 
-            "id": "Cassandra-QueryView", 
+            "id": "Cassandra-QueryView-7x", 
             "type": "search", 
             "version": 1
         }, 
@@ -801,7 +801,7 @@
                 "panelsJSON": [
                     {
                         "col": 10, 
-                        "id": "Cassandra-ResponseKeyspace", 
+                        "id": "Cassandra-ResponseKeyspace-7x", 
                         "panelIndex": 3, 
                         "row": 3, 
                         "size_x": 3, 
@@ -810,7 +810,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "Cassandra-ResponseType", 
+                        "id": "Cassandra-ResponseType-7x", 
                         "panelIndex": 4, 
                         "row": 3, 
                         "size_x": 3, 
@@ -819,7 +819,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Cassandra-ResponseTime", 
+                        "id": "Cassandra-ResponseTime-7x", 
                         "panelIndex": 9, 
                         "row": 5, 
                         "size_x": 12, 
@@ -828,7 +828,7 @@
                     }, 
                     {
                         "col": 4, 
-                        "id": "Cassandra-RequestCount", 
+                        "id": "Cassandra-RequestCount-7x", 
                         "panelIndex": 10, 
                         "row": 1, 
                         "size_x": 9, 
@@ -837,7 +837,7 @@
                     }, 
                     {
                         "col": 4, 
-                        "id": "Cassandra-Ops", 
+                        "id": "Cassandra-Ops-7x", 
                         "panelIndex": 11, 
                         "row": 3, 
                         "size_x": 3, 
@@ -846,7 +846,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Cassandra-RequestCountStackByType", 
+                        "id": "Cassandra-RequestCount-7xStackByType", 
                         "panelIndex": 15, 
                         "row": 7, 
                         "size_x": 12, 
@@ -855,7 +855,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Cassandra-ResponseCountStackByType", 
+                        "id": "Cassandra-ResponseCountStackByType-7x", 
                         "panelIndex": 16, 
                         "row": 9, 
                         "size_x": 12, 
@@ -864,7 +864,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Cassandra-RequestCountByType", 
+                        "id": "Cassandra-RequestCount-7xByType-7x", 
                         "panelIndex": 17, 
                         "row": 11, 
                         "size_x": 6, 
@@ -873,7 +873,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "Cassandra-ResponseCountByType", 
+                        "id": "Cassandra-ResponseCountByType-7x", 
                         "panelIndex": 18, 
                         "row": 11, 
                         "size_x": 6, 
@@ -882,7 +882,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Navigation", 
+                        "id": "Navigation-7x 7.x", 
                         "panelIndex": 19, 
                         "row": 1, 
                         "size_x": 3, 
@@ -897,7 +897,7 @@
                             "cassandra.response.result.rows.meta.table", 
                             "cassandra.response.result.rows.num_rows"
                         ], 
-                        "id": "Cassandra-QueryView", 
+                        "id": "Cassandra-QueryView-7x", 
                         "panelIndex": 20, 
                         "row": 14, 
                         "size_x": 12, 
@@ -910,7 +910,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Packetbeat] Cassandra", 
+                "title": "[Packetbeat] Cassandra 7.x", 
                 "uiStateJSON": {
                     "P-10": {
                         "vis": {
@@ -930,7 +930,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "Packetbeat-Cassandra", 
+            "id": "Packetbeat-Cassandra-7x", 
             "type": "dashboard", 
             "version": 2
         }

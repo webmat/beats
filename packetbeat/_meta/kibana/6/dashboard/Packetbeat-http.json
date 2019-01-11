@@ -8,8 +8,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3", 
-                "title": "Web transactions", 
+                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "Web transactions 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -46,11 +46,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Web transactions", 
+                    "title": "Web transactions 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "Web-transactions", 
+            "id": "Web-transactions-7x", 
             "type": "visualization", 
             "version": 3
         }, 
@@ -102,7 +102,7 @@
                         }
                     }
                 }, 
-                "title": "HTTP error codes", 
+                "title": "HTTP error codes 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -140,11 +140,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "HTTP error codes", 
+                    "title": "HTTP error codes 7.x", 
                     "type": "histogram"
                 }
             }, 
-            "id": "HTTP-error-codes", 
+            "id": "HTTP-error-codes-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -196,7 +196,7 @@
                         }
                     }
                 }, 
-                "title": "HTTP error codes evolution", 
+                "title": "HTTP error codes evolution 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -250,11 +250,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "HTTP error codes evolution", 
+                    "title": "HTTP error codes evolution 7.x", 
                     "type": "line"
                 }
             }, 
-            "id": "HTTP-error-codes-evolution", 
+            "id": "HTTP-error-codes-7x-evolution", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -275,20 +275,20 @@
                         }
                     }
                 }, 
-                "title": "Navigation", 
+                "title": "Navigation-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": "10", 
-                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard)\n\n[Flows](#/dashboard/Packetbeat-Flows)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra)"
+                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard-7x)\n\n[Flows](#/dashboard/Packetbeat-Flows-7x)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP-7x)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance-7x)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance-7x)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance-7x)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance-7x)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS-7x)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra-7x)"
                     }, 
-                    "title": "Navigation", 
+                    "title": "Navigation-7x 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "Navigation", 
+            "id": "Navigation-7x 7.x", 
             "type": "visualization", 
             "version": 10
         }, 
@@ -300,8 +300,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3", 
-                "title": "Total number of HTTP transactions", 
+                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "Total number of HTTP transactions 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -318,11 +318,11 @@
                         "fontSize": "37", 
                         "handleNoResults": true
                     }, 
-                    "title": "Total number of HTTP transactions", 
+                    "title": "Total number of HTTP transactions 7.x", 
                     "type": "metric"
                 }
             }, 
-            "id": "Total-number-of-HTTP-transactions", 
+            "id": "Total-number-of-HTTP-transactions-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -334,8 +334,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3", 
-                "title": "HTTP codes for the top queries", 
+                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "HTTP codes for the top queries 7.x", 
                 "version": 1, 
                 "visState": {
                     "aggs": [
@@ -379,7 +379,7 @@
                     "type": "pie"
                 }
             }, 
-            "id": "HTTP-codes-for-the-top-queries", 
+            "id": "HTTP-codes-for-the-top-queries-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -391,8 +391,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3", 
-                "title": "Top 10 HTTP requests", 
+                "savedSearchId": "71908f00-88ca-11e7-ad9c-db80de0bf8d3-7x", 
+                "title": "Top 10 HTTP requests 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -421,11 +421,11 @@
                         "showMeticsAtAllLevels": false, 
                         "showPartialRows": false
                     }, 
-                    "title": "Top 10 HTTP requests", 
+                    "title": "Top 10 HTTP requests 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "Top-10-HTTP-requests", 
+            "id": "Top-10-HTTP-requests-7x", 
             "type": "visualization", 
             "version": 2
         }, 
@@ -479,10 +479,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Web Transactions [Packetbeat]", 
+                "title": "Web Transactions [Packetbeat] 7.x", 
                 "version": 1
             }, 
-            "id": "71908f00-88ca-11e7-ad9c-db80de0bf8d3", 
+            "id": "71908f00-88ca-11e7-ad9c-db80de0bf8d3-7x", 
             "type": "search", 
             "version": 2
         }, 
@@ -512,7 +512,7 @@
                 "panelsJSON": [
                     {
                         "col": 4, 
-                        "id": "Web-transactions", 
+                        "id": "Web-transactions-7x", 
                         "panelIndex": 1, 
                         "row": 1, 
                         "size_x": 9, 
@@ -521,7 +521,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "HTTP-error-codes", 
+                        "id": "HTTP-error-codes-7x", 
                         "panelIndex": 2, 
                         "row": 8, 
                         "size_x": 6, 
@@ -530,7 +530,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "HTTP-error-codes-evolution", 
+                        "id": "HTTP-error-codes-7x-evolution", 
                         "panelIndex": 3, 
                         "row": 8, 
                         "size_x": 6, 
@@ -539,7 +539,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Navigation", 
+                        "id": "Navigation-7x 7.x", 
                         "panelIndex": 4, 
                         "row": 1, 
                         "size_x": 3, 
@@ -548,7 +548,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Total-number-of-HTTP-transactions", 
+                        "id": "Total-number-of-HTTP-transactions-7x", 
                         "panelIndex": 5, 
                         "row": 5, 
                         "size_x": 3, 
@@ -557,7 +557,7 @@
                     }, 
                     {
                         "col": 4, 
-                        "id": "HTTP-codes-for-the-top-queries", 
+                        "id": "HTTP-codes-for-the-top-queries-7x", 
                         "panelIndex": 6, 
                         "row": 5, 
                         "size_x": 9, 
@@ -566,7 +566,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Top-10-HTTP-requests", 
+                        "id": "Top-10-HTTP-requests-7x", 
                         "panelIndex": 7, 
                         "row": 11, 
                         "size_x": 12, 
@@ -575,7 +575,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Packetbeat] HTTP", 
+                "title": "[Packetbeat] HTTP 7.x", 
                 "uiStateJSON": {
                     "P-5": {
                         "vis": {
@@ -597,7 +597,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "Packetbeat-HTTP", 
+            "id": "Packetbeat-HTTP-7x", 
             "type": "dashboard", 
             "version": 2
         }

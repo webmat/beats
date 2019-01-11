@@ -17,20 +17,20 @@
                         }
                     }
                 }, 
-                "title": "Navigation", 
+                "title": "Navigation-7x 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
                     "aggs": [], 
                     "params": {
                         "fontSize": "10", 
-                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard)\n\n[Flows](#/dashboard/Packetbeat-Flows)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra)"
+                        "markdown": "### Packetbeat:\n\n[Overview](#/dashboard/Packetbeat-Dashboard-7x)\n\n[Flows](#/dashboard/Packetbeat-Flows-7x)\n\n[Web transactions](#/dashboard/Packetbeat-HTTP-7x)\n\n[MySQL performance](#/dashboard/Packetbeat-MySQL-performance-7x)\n\n[PostgreSQL performance](#/dashboard/Packetbeat-PgSQL-performance-7x)\n\n[MongoDB performance](#/dashboard/Packetbeat-MongoDB-performance-7x)\n\n[Thrift-RPC performance](#/dashboard/Packetbeat-Thrift-performance-7x)\n\n[NFS transactions](#/dashboard/Packetbeat-NFS-7x)\n\n[Cassandra performance](#/dashboard/Packetbeat-Cassandra-7x)"
                     }, 
-                    "title": "Navigation", 
+                    "title": "Navigation-7x 7.x", 
                     "type": "markdown"
                 }
             }, 
-            "id": "Navigation", 
+            "id": "Navigation-7x 7.x", 
             "type": "visualization", 
             "version": 10
         }, 
@@ -42,8 +42,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Packetbeat-Flows-Search", 
-                "title": "Connections over time", 
+                "savedSearchId": "Packetbeat-Flows-7x-Search", 
+                "title": "Connections over time 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -87,11 +87,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Connections over time", 
+                    "title": "Connections over time 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "Connections-over-time", 
+            "id": "Connections-over-time-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -103,8 +103,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Packetbeat-Flows-Search", 
-                "title": "Top hosts creating traffic", 
+                "savedSearchId": "Packetbeat-Flows-7x-Search", 
+                "title": "Top hosts creating traffic 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -160,11 +160,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Top hosts creating traffic", 
+                    "title": "Top hosts creating traffic 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "Top-hosts-creating-traffic", 
+            "id": "Top-hosts-creating-traffic-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -176,8 +176,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Packetbeat-Flows-Search", 
-                "title": "Top hosts receiving traffic", 
+                "savedSearchId": "Packetbeat-Flows-7x-Search", 
+                "title": "Top hosts receiving traffic 7.x", 
                 "uiStateJSON": {}, 
                 "version": 1, 
                 "visState": {
@@ -233,11 +233,11 @@
                         "times": [], 
                         "yAxis": {}
                     }, 
-                    "title": "Top hosts receiving traffic", 
+                    "title": "Top hosts receiving traffic 7.x", 
                     "type": "area"
                 }
             }, 
-            "id": "Top-hosts-receiving-traffic", 
+            "id": "Top-hosts-receiving-traffic-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -249,8 +249,8 @@
                         "filter": []
                     }
                 }, 
-                "savedSearchId": "Packetbeat-Flows-Search", 
-                "title": "Network traffic between your hosts", 
+                "savedSearchId": "Packetbeat-Flows-7x-Search", 
+                "title": "Network traffic between your hosts 7.x", 
                 "uiStateJSON": {
                     "vis": {
                         "params": {
@@ -321,11 +321,11 @@
                         }, 
                         "totalFunc": "sum"
                     }, 
-                    "title": "Network traffic between your hosts", 
+                    "title": "Network traffic between your hosts 7.x", 
                     "type": "table"
                 }
             }, 
-            "id": "Network-traffic-between-your-hosts", 
+            "id": "Network-traffic-between-your-hosts-7x", 
             "type": "visualization", 
             "version": 1
         }, 
@@ -373,10 +373,10 @@
                     "@timestamp", 
                     "desc"
                 ], 
-                "title": "Packetbeat Flows Search", 
+                "title": "Packetbeat Flows Search 7.x", 
                 "version": 1
             }, 
-            "id": "Packetbeat-Flows-Search", 
+            "id": "Packetbeat-Flows-7x-Search", 
             "type": "search", 
             "version": 1
         }, 
@@ -406,7 +406,7 @@
                 "panelsJSON": [
                     {
                         "col": 1, 
-                        "id": "Navigation", 
+                        "id": "Navigation-7x 7.x", 
                         "panelIndex": 2, 
                         "row": 1, 
                         "size_x": 3, 
@@ -415,7 +415,7 @@
                     }, 
                     {
                         "col": 4, 
-                        "id": "Connections-over-time", 
+                        "id": "Connections-over-time-7x", 
                         "panelIndex": 3, 
                         "row": 1, 
                         "size_x": 9, 
@@ -424,7 +424,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Top-hosts-creating-traffic", 
+                        "id": "Top-hosts-creating-traffic-7x", 
                         "panelIndex": 1, 
                         "row": 6, 
                         "size_x": 6, 
@@ -433,7 +433,7 @@
                     }, 
                     {
                         "col": 7, 
-                        "id": "Top-hosts-receiving-traffic", 
+                        "id": "Top-hosts-receiving-traffic-7x", 
                         "panelIndex": 4, 
                         "row": 6, 
                         "size_x": 6, 
@@ -442,7 +442,7 @@
                     }, 
                     {
                         "col": 1, 
-                        "id": "Network-traffic-between-your-hosts", 
+                        "id": "Network-traffic-between-your-hosts-7x", 
                         "panelIndex": 5, 
                         "row": 13, 
                         "size_x": 12, 
@@ -451,7 +451,7 @@
                     }
                 ], 
                 "timeRestore": false, 
-                "title": "[Packetbeat] Flows", 
+                "title": "[Packetbeat] Flows 7.x", 
                 "uiStateJSON": {
                     "P-5": {
                         "vis": {
@@ -466,7 +466,7 @@
                 }, 
                 "version": 1
             }, 
-            "id": "Packetbeat-Flows", 
+            "id": "Packetbeat-Flows-7x", 
             "type": "dashboard", 
             "version": 2
         }

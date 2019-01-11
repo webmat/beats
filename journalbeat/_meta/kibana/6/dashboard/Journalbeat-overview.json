@@ -25,10 +25,10 @@
           "@timestamp",
           "desc"
         ],
-        "title": "[Journalbeat] Systemd messages",
+        "title": "[Journalbeat] Systemd messages 7.x",
         "version": 1
       },
-      "id": "aa003e90-e2b9-11e8-9f52-734e93de180d",
+      "id": "aa003e90-e2b9-11e8-9f52-734e93de180d-7x",
       "type": "search",
       "updated_at": "2018-11-07T18:19:28.377Z",
       "version": 1
@@ -59,10 +59,10 @@
           "_score",
           "desc"
         ],
-        "title": "[Journalbeat] Kernel errors",
+        "title": "[Journalbeat] Kernel errors 7.x",
         "version": 1
       },
-      "id": "5db75310-e2ba-11e8-9f52-734e93de180d",
+      "id": "5db75310-e2ba-11e8-9f52-734e93de180d-7x",
       "type": "search",
       "updated_at": "2018-11-07T18:24:29.889Z",
       "version": 1
@@ -93,10 +93,10 @@
           "_score",
           "desc"
         ],
-        "title": "[Journalbeat] Login authorization",
+        "title": "[Journalbeat] Login authorization 7.x",
         "version": 1
       },
-      "id": "82408120-e2ba-11e8-9f52-734e93de180d",
+      "id": "82408120-e2ba-11e8-9f52-734e93de180d-7x",
       "type": "search",
       "updated_at": "2018-11-07T18:26:05.348Z",
       "version": 2
@@ -128,10 +128,10 @@
           "_score",
           "desc"
         ],
-        "title": "[Journalbeat] USB and HID messages",
+        "title": "[Journalbeat] USB and HID messages 7.x",
         "version": 1
       },
-      "id": "f0232670-e2ba-11e8-9f52-734e93de180d",
+      "id": "f0232670-e2ba-11e8-9f52-734e93de180d-7x",
       "type": "search",
       "updated_at": "2018-11-07T18:28:35.543Z",
       "version": 1
@@ -156,10 +156,10 @@
         },
         "panelsJSON": null,
         "timeRestore": false,
-        "title": "[Journalbeat] Overview",
+        "title": "[Journalbeat] Overview 7.x",
         "version": 1
       },
-      "id": "f2de4440-e2b9-11e8-9f52-734e93de180d",
+      "id": "f2de4440-e2b9-11e8-9f52-734e93de180d-7x",
       "type": "dashboard",
       "updated_at": "2018-11-07T18:30:18.083Z",
       "version": 2
